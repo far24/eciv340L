@@ -1,0 +1,19 @@
+[
+  {
+    "path": "posts/",
+    "title": "Spot Speed Study",
+    "description": "A new article created using the Distill format.",
+    "author": [
+      {
+        "name": "ECIV 340L, CEE, UoSC",
+        "url": {}
+      }
+    ],
+    "date": "2021-03-14",
+    "categories": [],
+    "contents": "\r\nSpot Speed Study\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-03-14T20:50:58-04:00",
+    "input_file": "sss.utf8.md"
+  }
+]

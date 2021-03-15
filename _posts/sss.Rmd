@@ -1,0 +1,19 @@
+---
+title: "Spot Speed Study"
+description: |
+  A new article created using the Distill format.
+author:
+  - name: ECIV 340L, CEE, UoSC 
+    url: 
+    affiliation: 
+    affiliation_url:
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+
+# Spot Speed Study
+
+
+
+
