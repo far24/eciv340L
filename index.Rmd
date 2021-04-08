@@ -1,6 +1,43 @@
 ---
-title: "ECIV 340L"
+title: "Transportation Engineering Laboratory"
 description: |
-  Welcome to the website. I hope you enjoy it!
+  ECIV 340L   
+  Department of Civil and Environmental Engineering    
+  University of South Carolina
 site: distill::distill_website
 ---
+<style>
+body {
+text-align: justify}
+</style>
+
+
+# Instructor  
+**Fahim Ahmed, M.S.**  
+Office Location: 300M C110  
+Class Time: 	F 8:40 am – 11:40 am  	
+Office Telephone: N/A    
+Class Location:	300M B123	Office   
+Hours: Open door policy  
+Class Webpage:	blackboard.sc.edu | https://eciv340l.netlify.app/
+Email: ahmedf@email.sc.edu  
+
+# Course Description
+This course aims to provide students with sound data collection and analysis techniques.  This course is intended to complement the materials covered in Introduction to Transportation Engineering (ECIV 340), with emphasis on field experience.
+
+# Learning Outcomes
+At the conclusion of this course, students should be able to:  
+
+1.	Collect necessary traffic data to support traffic impact studies and transportation planning studies.  
+
+2.	Make field book entry and perform engineering calculations in proper format using self-measured data.  
+
+3.	Write engineering reports.
+
+## Prerequisites/Co-Requisites  
+Students must either have previously completed ECIV 340 or take ECIV 340 in the same semester as this course (ECIV 340L).  Students are expected to be proficient with Microsoft Excel.
+
+Useful References  
+1.	“Introduction to Traffic Engineering: A Manual for data Collection and Analysis” 2nd edition by Thomas R. Currin. Cengage Learning, 2013.  
+
+2.	“Elementary Surveying: An Introduction to Geomatics” 14th edition by Charles D. Ghilani and Paul R. Wolf. Prentice Hall, 2015.
