@@ -86,635 +86,39 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>ECIV 340L: Transportation Engineering Lab: Resources</title>
+  <title>Queue Length Study</title>
+
+  <meta property="description" itemprop="description" content="A short description of the post."/>
 
 
-
+  <!--  https://schema.org/Article -->
+  <meta property="article:published" itemprop="datePublished" content="2021-04-08"/>
+  <meta property="article:created" itemprop="dateCreated" content="2021-04-08"/>
+  <meta name="article:author" content="ECIV 340L, CEE, UoSC"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="ECIV 340L: Transportation Engineering Lab: Resources"/>
+  <meta property="og:title" content="Queue Length Study"/>
   <meta property="og:type" content="article"/>
+  <meta property="og:description" content="A short description of the post."/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="ECIV 340L: Transportation Engineering Lab"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="ECIV 340L: Transportation Engineering Lab: Resources"/>
+  <meta property="twitter:title" content="Queue Length Study"/>
+  <meta property="twitter:description" content="A short description of the post."/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["Resources"]},{"type":"NULL"}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Queue Length Study"]},{"type":"character","attributes":{},"value":["A short description of the post.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["ECIV 340L, CEE, UoSC"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":[]}},"value":[]}]}]},{"type":"character","attributes":{},"value":["04-08-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
+  
+  <script type="text/json" id="radix-resource-manifest">
+  {"type":"NULL"}
+  </script>
   <!--radix_placeholder_navigation_in_header-->
-  <meta name="distill:offset" content=""/>
-
-  <script type="application/javascript">
-
-    window.headroom_prevent_pin = false;
-
-    window.document.addEventListener("DOMContentLoaded", function (event) {
-
-      // initialize headroom for banner
-      var header = $('header').get(0);
-      var headerHeight = header.offsetHeight;
-      var headroom = new Headroom(header, {
-        tolerance: 5,
-        onPin : function() {
-          if (window.headroom_prevent_pin) {
-            window.headroom_prevent_pin = false;
-            headroom.unpin();
-          }
-        }
-      });
-      headroom.init();
-      if(window.location.hash)
-        headroom.unpin();
-      $(header).addClass('headroom--transition');
-
-      // offset scroll location for banner on hash change
-      // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
-      window.addEventListener("hashchange", function(event) {
-        window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
-      });
-
-      // responsive menu
-      $('.distill-site-header').each(function(i, val) {
-        var topnav = $(this);
-        var toggle = topnav.find('.nav-toggle');
-        toggle.on('click', function() {
-          topnav.toggleClass('responsive');
-        });
-      });
-
-      // nav dropdowns
-      $('.nav-dropbtn').click(function(e) {
-        $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
-        $(this).parent().siblings('.nav-dropdown')
-           .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $("body").click(function(e){
-        $('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $(".nav-dropdown").click(function(e){
-        e.stopPropagation();
-      });
-    });
-  </script>
-
-  <style type="text/css">
-
-  /* Theme (user-documented overrideables for nav appearance) */
-
-  .distill-site-nav {
-    color: rgba(255, 255, 255, 0.8);
-    background-color: #0F2E3D;
-    font-size: 15px;
-    font-weight: 300;
-  }
-
-  .distill-site-nav a {
-    color: inherit;
-    text-decoration: none;
-  }
-
-  .distill-site-nav a:hover {
-    color: white;
-  }
-
-  @media print {
-    .distill-site-nav {
-      display: none;
-    }
-  }
-
-  .distill-site-header {
-
-  }
-
-  .distill-site-footer {
-
-  }
-
-
-  /* Site Header */
-
-  .distill-site-header {
-    width: 100%;
-    box-sizing: border-box;
-    z-index: 3;
-  }
-
-  .distill-site-header .nav-left {
-    display: inline-block;
-    margin-left: 8px;
-  }
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header .nav-left {
-      margin-left: 0;
-    }
-  }
-
-
-  .distill-site-header .nav-right {
-    float: right;
-    margin-right: 8px;
-  }
-
-  .distill-site-header a,
-  .distill-site-header .title {
-    display: inline-block;
-    text-align: center;
-    padding: 14px 10px 14px 10px;
-  }
-
-  .distill-site-header .title {
-    font-size: 18px;
-    min-width: 150px;
-  }
-
-  .distill-site-header .logo {
-    padding: 0;
-  }
-
-  .distill-site-header .logo img {
-    display: none;
-    max-height: 20px;
-    width: auto;
-    margin-bottom: -4px;
-  }
-
-  .distill-site-header .nav-image img {
-    max-height: 18px;
-    width: auto;
-    display: inline-block;
-    margin-bottom: -3px;
-  }
-
-
-
-  @media screen and (min-width: 1000px) {
-    .distill-site-header .logo img {
-      display: inline-block;
-    }
-    .distill-site-header .nav-left {
-      margin-left: 20px;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 20px;
-    }
-    .distill-site-header .title {
-      padding-left: 12px;
-    }
-  }
-
-
-  .distill-site-header .nav-toggle {
-    display: none;
-  }
-
-  .nav-dropdown {
-    display: inline-block;
-    position: relative;
-  }
-
-  .nav-dropdown .nav-dropbtn {
-    border: none;
-    outline: none;
-    color: rgba(255, 255, 255, 0.8);
-    padding: 16px 10px;
-    background-color: transparent;
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
-    margin: 0;
-    margin-top: 1px;
-    z-index: 2;
-  }
-
-  .nav-dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 200px;
-    border: 1px solid rgba(0,0,0,0.15);
-    border-radius: 4px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
-    z-index: 1;
-    margin-top: 2px;
-    white-space: nowrap;
-    padding-top: 4px;
-    padding-bottom: 4px;
-  }
-
-  .nav-dropdown-content hr {
-    margin-top: 4px;
-    margin-bottom: 4px;
-    border: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  }
-
-  .nav-dropdown-active {
-    display: block;
-  }
-
-  .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
-    color: black;
-    padding: 6px 24px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-
-  .nav-dropdown-content .nav-dropdown-header {
-    display: block;
-    padding: 5px 24px;
-    padding-bottom: 0;
-    text-transform: uppercase;
-    font-size: 14px;
-    color: #999999;
-    white-space: nowrap;
-  }
-
-  .nav-dropdown:hover .nav-dropbtn {
-    color: white;
-  }
-
-  .nav-dropdown-content a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-
-  .nav-right .nav-dropdown-content {
-    margin-left: -45%;
-    right: 0;
-  }
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
-    .distill-site-header a.nav-toggle {
-      float: right;
-      display: block;
-    }
-    .distill-site-header .title {
-      margin-left: 0;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 0;
-    }
-    .distill-site-header {
-      overflow: hidden;
-    }
-    .nav-right .nav-dropdown-content {
-      margin-left: 0;
-    }
-  }
-
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header.responsive {position: relative; min-height: 500px; }
-    .distill-site-header.responsive a.nav-toggle {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .distill-site-header.responsive a,
-    .distill-site-header.responsive .nav-dropdown {
-      display: block;
-      text-align: left;
-    }
-    .distill-site-header.responsive .nav-left,
-    .distill-site-header.responsive .nav-right {
-      width: 100%;
-    }
-    .distill-site-header.responsive .nav-dropdown {float: none;}
-    .distill-site-header.responsive .nav-dropdown-content {position: relative;}
-    .distill-site-header.responsive .nav-dropdown .nav-dropbtn {
-      display: block;
-      width: 100%;
-      text-align: left;
-    }
-  }
-
-  /* Site Footer */
-
-  .distill-site-footer {
-    width: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
-    z-index: 3;
-    margin-top: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-  }
-
-  /* Headroom */
-
-  d-title {
-    padding-top: 6rem;
-  }
-
-  @media print {
-    d-title {
-      padding-top: 4rem;
-    }
-  }
-
-  .headroom {
-    z-index: 1000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-
-  .headroom--transition {
-    transition: all .4s ease-in-out;
-  }
-
-  .headroom--unpinned {
-    top: -100px;
-  }
-
-  .headroom--pinned {
-    top: 0;
-  }
-
-  /* adjust viewport for navbar height */
-  /* helps vertically center bootstrap (non-distill) content */
-  .min-vh-100 {
-    min-height: calc(100vh - 100px) !important;
-  }
-
-  </style>
-
-  <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
-  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
-  <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
-  <script src="site_libs/autocomplete-0.37.1/autocomplete.min.js"></script>
-  <script src="site_libs/fuse-6.4.1/fuse.min.js"></script>
-
-  <script type="application/javascript">
-
-  function getMeta(metaName) {
-    var metas = document.getElementsByTagName('meta');
-    for (let i = 0; i < metas.length; i++) {
-      if (metas[i].getAttribute('name') === metaName) {
-        return metas[i].getAttribute('content');
-      }
-    }
-    return '';
-  }
-
-  function offsetURL(url) {
-    var offset = getMeta('distill:offset');
-    return offset ? offset + '/' + url : url;
-  }
-
-  function createFuseIndex() {
-
-    // create fuse index
-    var options = {
-      keys: [
-        { name: 'title', weight: 20 },
-        { name: 'categories', weight: 15 },
-        { name: 'description', weight: 10 },
-        { name: 'contents', weight: 5 },
-      ],
-      ignoreLocation: true,
-      threshold: 0
-    };
-    var fuse = new window.Fuse([], options);
-
-    // fetch the main search.json
-    return fetch(offsetURL('search.json'))
-      .then(function(response) {
-        if (response.status == 200) {
-          return response.json().then(function(json) {
-            // index main articles
-            json.articles.forEach(function(article) {
-              fuse.add(article);
-            });
-            // download collections and index their articles
-            return Promise.all(json.collections.map(function(collection) {
-              return fetch(offsetURL(collection)).then(function(response) {
-                if (response.status === 200) {
-                  return response.json().then(function(articles) {
-                    articles.forEach(function(article) {
-                      fuse.add(article);
-                    });
-                  })
-                } else {
-                  return Promise.reject(
-                    new Error('Unexpected status from search index request: ' +
-                              response.status)
-                  );
-                }
-              });
-            })).then(function() {
-              return fuse;
-            });
-          });
-
-        } else {
-          return Promise.reject(
-            new Error('Unexpected status from search index request: ' +
-                        response.status)
-          );
-        }
-      });
-  }
-
-  window.document.addEventListener("DOMContentLoaded", function (event) {
-
-    // get search element (bail if we don't have one)
-    var searchEl = window.document.getElementById('distill-search');
-    if (!searchEl)
-      return;
-
-    createFuseIndex()
-      .then(function(fuse) {
-
-        // make search box visible
-        searchEl.classList.remove('hidden');
-
-        // initialize autocomplete
-        var options = {
-          autoselect: true,
-          hint: false,
-          minLength: 2,
-        };
-        window.autocomplete(searchEl, options, [{
-          source: function(query, callback) {
-            const searchOptions = {
-              isCaseSensitive: false,
-              shouldSort: true,
-              minMatchCharLength: 2,
-              limit: 10,
-            };
-            var results = fuse.search(query, searchOptions);
-            callback(results
-              .map(function(result) { return result.item; })
-            );
-          },
-          templates: {
-            suggestion: function(suggestion) {
-              var img = suggestion.preview && Object.keys(suggestion.preview).length > 0
-                ? `<img src="${offsetURL(suggestion.preview)}"</img>`
-                : '';
-              var html = `
-                <div class="search-item">
-                  <h3>${suggestion.title}</h3>
-                  <div class="search-item-description">
-                    ${suggestion.description || ''}
-                  </div>
-                  <div class="search-item-preview">
-                    ${img}
-                  </div>
-                </div>
-              `;
-              return html;
-            }
-          }
-        }]).on('autocomplete:selected', function(event, suggestion) {
-          window.location.href = offsetURL(suggestion.path);
-        });
-        // remove inline display style on autocompleter (we want to
-        // manage responsive display via css)
-        $('.algolia-autocomplete').css("display", "");
-      })
-      .catch(function(error) {
-        console.log(error);
-      });
-
-  });
-
-  </script>
-
-  <style type="text/css">
-
-  .nav-search {
-    font-size: x-small;
-  }
-
-  /* Algolioa Autocomplete */
-
-  .algolia-autocomplete {
-    display: inline-block;
-    margin-left: 10px;
-    vertical-align: sub;
-    background-color: white;
-    color: black;
-    padding: 6px;
-    padding-top: 8px;
-    padding-bottom: 0;
-    border-radius: 6px;
-    border: 1px #0F2E3D solid;
-    width: 180px;
-  }
-
-
-  @media screen and (max-width: 768px) {
-    .distill-site-nav .algolia-autocomplete {
-      display: none;
-      visibility: hidden;
-    }
-    .distill-site-nav.responsive .algolia-autocomplete {
-      display: inline-block;
-      visibility: visible;
-    }
-    .distill-site-nav.responsive .algolia-autocomplete .aa-dropdown-menu {
-      margin-left: 0;
-      width: 400px;
-      max-height: 400px;
-    }
-  }
-
-  .algolia-autocomplete .aa-input, .algolia-autocomplete .aa-hint {
-    width: 90%;
-    outline: none;
-    border: none;
-  }
-
-  .algolia-autocomplete .aa-hint {
-    color: #999;
-  }
-  .algolia-autocomplete .aa-dropdown-menu {
-    width: 550px;
-    max-height: 70vh;
-    overflow-x: visible;
-    overflow-y: scroll;
-    padding: 5px;
-    margin-top: 3px;
-    margin-left: -150px;
-    background-color: #fff;
-    border-radius: 5px;
-    border: 1px solid #999;
-    border-top: none;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion {
-    cursor: pointer;
-    padding: 5px 4px;
-    border-bottom: 1px solid #eee;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion:last-of-type {
-    border-bottom: none;
-    margin-bottom: 2px;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item {
-    overflow: hidden;
-    font-size: 0.8em;
-    line-height: 1.4em;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item h3 {
-    font-size: 1rem;
-    margin-block-start: 0;
-    margin-block-end: 5px;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-description {
-    display: inline-block;
-    overflow: hidden;
-    height: 2.8em;
-    width: 80%;
-    margin-right: 4%;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview {
-    display: inline-block;
-    width: 15%;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img {
-    height: 3em;
-    width: auto;
-    display: none;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img[src] {
-    display: initial;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion.aa-cursor {
-    background-color: #eee;
-  }
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion em {
-    font-weight: bold;
-    font-style: normal;
-  }
-
-  </style>
-
-
   <!--/radix_placeholder_navigation_in_header-->
   <!--radix_placeholder_distill-->
 
@@ -2030,15 +1434,16 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
-  <script src="site_libs/popper-2.6.0/popper.min.js"></script>
-  <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
-  <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
-  <script src="site_libs/tippy-6.2.7/tippy.umd.min.js"></script>
-  <script src="site_libs/anchor-4.2.2/anchor.min.js"></script>
-  <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
-  <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
-  <script src="site_libs/distill-2.2.21/template.v2.js"></script>
+  <script src="queue-length-study_files/header-attrs-2.7/header-attrs.js"></script>
+  <script src="queue-length-study_files/jquery-1.11.3/jquery.min.js"></script>
+  <script src="queue-length-study_files/popper-2.6.0/popper.min.js"></script>
+  <link href="queue-length-study_files/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="queue-length-study_files/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="queue-length-study_files/tippy-6.2.7/tippy.umd.min.js"></script>
+  <script src="queue-length-study_files/anchor-4.2.2/anchor.min.js"></script>
+  <script src="queue-length-study_files/bowser-1.9.3/bowser.min.js"></script>
+  <script src="queue-length-study_files/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="queue-length-study_files/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
   <!--/radix_placeholder_site_in_header-->
 
@@ -2050,38 +1455,91 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Resources","authors":[]}
+{"title":"Queue Length Study","description":"A short description of the post.","authors":[{"author":"ECIV 340L, CEE, UoSC","authorURL":{},"affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-04-08T00:00:00.000-04:00","citationText":"UoSC, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
 <!--radix_placeholder_navigation_before_body-->
-<header class="header header--fixed" role="banner">
-<nav class="distill-site-nav distill-site-header">
-<div class="nav-left">
-<a href="index.html" class="title">ECIV 340L: Transportation Engineering Lab</a>
-<input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
-</div>
-<div class="nav-right">
-<a href="index.html">Home</a>
-<a href="course-material.html">Course Materials</a>
-<a href="resources.html">Resources</a>
-<a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
-</div>
-</nav>
-</header>
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Resources</h1>
+<h1>Queue Length Study</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-
+<p><p>A short description of the post.</p></p>
 </div>
 
+<div class="d-byline">
+  ECIV 340L, CEE, UoSC true 
+  
+<br/>04-08-2021
+</div>
 
 <div class="d-article">
+<style>
+body {
+text-align: justify}
+</style>
+<p><strong><a href="">LECTURE SLIDES</a></strong><br />
+<strong><a href="">DATA FORM</a></strong><br />
+<strong><a href="">DEMO CALCULATION</a></strong></p>
+<h2 id="introduction">Introduction</h2>
+<p>This session addresses a topic that applies to many situations both on and off roadway. Queue length determination and analysis identifies the characteristics of a waiting line of vehicles or people. It makes use of the Poisson distribution of arrivals along with a negative exponential distribution of service times. The procedure is useful in customer service analyses of drive-in banking and fast-food restaurants; it is also used in predicting toll-booth activity and parking garage utilization. Information such as the average length of waiting time, length of a queue, and length of a storage lane can be easily computed. The procedure is limited to single-channel or single-queue analysis, since it requires little data acquisition to produce meaningful results. Procedures exist for multi-channel analysis of two or more drive-in windows, toll booths, or similar service bays that require minimal data acquisition to render useful results.</p>
+<h2 id="equipment">Equipment</h2>
+<p>The equipment list for data collection procedure is a stopwatch (cell phone) and note-taking materials.</p>
+<h2 id="data-collection">Data Collection</h2>
+<h3 id="choose-a-location-to-study-and-a-time-to-collect-data">1. Choose a location to study and a time to collect data</h3>
+<p>The student group should choose a fast-food facility or drive-in bank that has only one operating window. Example:</p>
+<ul>
+<li>Fast-food restaurants that have two successive windows—one used to take order and the next to receive food.</li>
+<li>toll booth that have a single booth with only one queue.</li>
+</ul>
+<p>It is important that the traffic entering and exiting the service line can be easily counted. This observation should take place during a peak period when the service rate (the number of vehicles serviced per hour) is at, or near, its highest. The service rate to be determined should be the maximum service rate the facility can render—when the arrival rate is at its highest and workers are the most motivated. For some facilities, this may be a significant factor in obtaining data needed to determine the service rate. For others, the service time may be unaffected by the arrival rate and length of queue. The student group should be aware of the possible effect on the data quality.</p>
+<h3 id="collect-data-and-record-values">2. Collect data and record values</h3>
+<p>Two sets of data will be obtained.One should address the service rate of the facility (page 5) and the other the variation in the length of the queue (page 6). Service time is the time it takes one vehicle from the queue to be serviced by the facility and depart. For a bank, the service time starts when the vehicle stops at the speaker or window and ends when the vehicle starts to move. Using the data collection form attached to this handout, 50 service times will be collected. Collection of the queue length variations over the course of 60 minutes is obtained by recording the queue length at the end of each minute for one hour. Consecutive readings are required over this period, since the variability in length of the queue is to be compared to theoretical computed values. The student group starts timing and at the end of each minute observes and records the length of the queue, excluding any vehicle being serviced. Simultaneously, the number of vehicles arriving and entering the queue is recorded at the end of each 5-minute arrival.</p>
+<h3 id="check-your-work-before-leaving-the-field">3. Check your work before leaving the field</h3>
+<p>Before leaving the field, the data collection form should be checked to see that all field data have been collected correctly. Any unusual observations should be listed as comments.</p>
+<h2 id="data-analysis">Data Analysis</h2>
+<h3 id="summarize-field-data-on-form-provided">1. Summarize field data on form provided</h3>
+<p>Since the values were computed in the field, the computations are rechecked. Next, the queue-length data is reduced, using the data summary form on page 7. The procedure begins with identifying the number of queues that had 0 vehicle, 1 vehicle, 2 vehicles, and so on, and entering these values in Column 2. The sum of Column 2 should be 60, the number of queues observed. Column 3 is the frequency of that queue length and is computed by dividing Column 2 by the total, 60. Column 4, cumulative frequency, is computed by adding all frequencies, including the time interval.</p>
+<h3 id="calculate-standard-relationships">2. Calculate standard relationships</h3>
+<p>Using the collected data, a number of standard relationships can be calculated. These can be used to identify and assess the performance characteristics of the facility. The formulae and an example calculation of each are shown below. These use an assumed service rate of 140 vehicles per hour and an assumed arrival rate of 90 vehicles per hour. For each of the calculations, q equals the arrival rate in vehicles per hour, and Q equals the service rate in vehicles per hour.</p>
+<ul>
+<li><p>The probability of exactly <span class="math inline">\(n\)</span> units being in the system, where, <span class="math inline">\(n\)</span> equals the total number of vehicles; including the unit being served is:<br />
+<span class="math inline">\(Pr(n)= (\frac{q}{Q})^n(1-\frac{q}{Q})\)</span><br />
+Therefore, the probability of exactly 2 vehicles in the system is <span class="math inline">\(P(n=2) = 0.148\)</span>.</p></li>
+<li><p>The expected, or average number of vehicles in the system, E(n) is:<br />
+<span class="math inline">\(E(n)=\frac{q}{(Q-q)}\)</span>.<br />
+Therefore, the average number of vehicles in the system for the example is <span class="math inline">\(1.8\)</span>.</p></li>
+<li><p>The average queue length, E(m), is:<br />
+<span class="math inline">\(E(m)=\frac{q^2}{(Q(Q-q))}\)</span>.<br />
+The mean queue length is <span class="math inline">\(1.16\)</span> vehicles.</p></li>
+<li><p>The average waiting time in the queue after arrival, E(w), is:<br />
+<span class="math inline">\(E(w)=\frac{q}{(Q(Q-q))}\)</span>.<br />
+This calculates to be <span class="math inline">\(0.013\)</span> hours or <span class="math inline">\(46.3\)</span> seconds.</p></li>
+<li><p>The average time a vehicle spends in the system including being served and waiting to be served, <span class="math inline">\(E(v)\)</span>, is:<br />
+<span class="math inline">\(E(v)=\frac{1}{(Q-q)}\)</span>.<br />
+This calculates to be <span class="math inline">\(0.02\)</span> hours or <span class="math inline">\(72\)</span> seconds.</p></li>
+<li><p>The probability of a vehicle spending time, t hours, or less in the system is:<br />
+<span class="math inline">\(Pr(v \le t)= 1 - e^{-(1-\frac{q}{Q})qt}\)</span><br />
+If it is desirable to know how often the total time a vehicle will be in the system less than <span class="math inline">\(50\)</span> seconds, then the equation yields <span class="math inline">\(0.36\)</span>.</p></li>
+<li><p>The probability of a vehicle spending time, t, or less in the queue is:<br />
+<span class="math inline">\(Pr(w \le t) = 1 - \frac{q}{Q}e^{-(1-\frac{q}{Q})qt}\)</span><br />
+Likewise, if it is desirable to know how often the waiting time will be less than or equal to 50 seconds, then the equation yields <span class="math inline">\(0.589\)</span>.</p></li>
+<li><p>The probability of more than N vehicles in the queue is: $Pr(n N) = ()^{N+1} $</p></li>
+</ul>
+<p>This equation can be used to find the length of the storage lane for the queue. If it is desirable to have the storage lane long enough to accommodate <span class="math inline">\(90%\)</span> of the queues that develop, then $Pr⁡(n&gt;N)=0.1$0 andthe eequation can be solved for N. For the example rates, it is computed that more than <span class="math inline">\(4\)</span> vehicles will be in the queue <span class="math inline">\(10.9%\)</span> of the time, and more than 5 vehicles will be in the queue <span class="math inline">\(7%\)</span> of the time. Based on this, a storage lane long enough to accommodate <span class="math inline">\(5\)</span> vehicles should be sufficient over 90% of the time.</p>
+<h2 id="summarize-and-interpret-results">3. Summarize and interpret results</h2>
+<p>Having computed all of the relationships, the student group can now examine the results and draw conclusions about the expected operation of the facility. Among additional questions that may be addressed are:</p>
+<ul>
+<li>Does the observed average queue length compare favorably to the computed value? If not, is there an indication why?</li>
+<li>If it is desirable for the facility to have sufficient storage length for 95% of the expected queues to be accommodated, how many vehicles must be accommodated?</li>
+<li>Do the computed values indicate the need for improvements in the operation of the facility, such as the addition of more windows or channels, or changes in the operation to increase the rate of service?</li>
+<li>Assuming an arrival rate equal to 90% of the service rate, how much of an increase in service time can occur at the facility before the queue length gets too long for the site?</li>
+</ul>
+<p>These and other questions can provide useful input to the decision maker responsible for the operation of a business facility. Given the small amount of data collection needed to render significant results, the study of queue length is a cost-effective management tool. The procedure presented here for single-channel analysis is similar to that for multi-channel applications.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
@@ -2090,6 +1548,15 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <div class="d-appendix">
 </div>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 
 <!--radix_placeholder_site_after_body-->
 <!--/radix_placeholder_site_after_body-->

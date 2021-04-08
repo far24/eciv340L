@@ -6,14 +6,14 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-03-14T20:46:42-04:00"
+      "last_modified": "2021-04-08T19:01:11-04:00"
     },
     {
       "path": "course-material.html",
       "title": "Topics",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-03-14T20:46:45-04:00"
+      "last_modified": "2021-04-08T19:01:13-04:00"
     },
     {
       "path": "index.html",
@@ -21,14 +21,14 @@
       "description": "Welcome to the website. I hope you enjoy it!\n",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-03-14T20:46:48-04:00"
+      "last_modified": "2021-04-08T19:01:23-04:00"
     },
     {
       "path": "Resources.html",
       "title": "Resources",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-03-14T20:46:51-04:00"
+      "last_modified": "2021-04-08T19:01:25-04:00"
     }
   ],
   "collections": ["posts/posts.json"]

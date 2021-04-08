@@ -1,0 +1,20 @@
+---
+title: "Spot Speed Study"
+description: |
+  A short description of the post.
+author:
+  - name: ECIV 340L, CEE, UoSC
+    url: {}
+date: 03-21-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+<style>
+body {
+text-align: justify}
+</style>
+  **[LECTURE SLIDES]()**  
+  **[DATA FORM]()**  
+  **[DEMO CALCULATION]()** 
