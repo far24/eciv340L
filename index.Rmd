@@ -19,7 +19,7 @@ Class Time: 	F 8:40 am – 11:40 am
 Office Telephone: N/A    
 Class Location:	300M B123	Office   
 Hours: Open door policy  
-Class Webpage:	blackboard.sc.edu | https://eciv340l.netlify.app/
+Class Webpage:	blackboard.sc.edu | https://eciv340l.netlify.app/  
 Email: ahmedf@email.sc.edu  
 
 # Course Description
