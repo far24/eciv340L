@@ -1,5 +1,5 @@
 ---
-title: "Transportation Modeling in TranCAD"
+title: "Transportation Modeling in TransCAD"
 description: |
   The purpose of this lab session is to perform travel demand modeling and logistics analysis using TransCAD.  First, you need to download the demo files (TransCAD_demo.zip) from Blackboard. Then, open the TransCAD 8.0 (Academic 64-bit).
 author:
