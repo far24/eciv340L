@@ -12,15 +12,6 @@ text-align: justify}
 </style>
 
 
-# Instructor  
-**Fahim Ahmed, M.S.**  
-Office Location: 300M C110  
-Class Time: 	F 8:40 am – 11:40 am  	
-Office Telephone: N/A    
-Class Location:	300M B123	Office   
-Hours: Open door policy  
-Class Webpage:	blackboard.sc.edu | https://eciv340l.netlify.app/  
-Email: ahmedf@email.sc.edu  
 
 # Course Description
 This course aims to provide students with sound data collection and analysis techniques.  This course is intended to complement the materials covered in Introduction to Transportation Engineering (ECIV 340), with emphasis on field experience.

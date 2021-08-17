@@ -1,34 +1,49 @@
 {
   "articles": [
     {
-      "path": "about.html",
-      "title": "About this site",
-      "description": "Some additional details about the website",
+      "path": "class.html",
+      "title": "Class Information",
       "author": [],
-      "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-04-08T19:18:24-04:00"
+      "contents": "\r\nClass\r\nClass Day and Time: Friday | 12:00 PM - 3:00 PMClass Location: Swearingen Engr. Ctr.Class Room: 2A15Class Webpage: blackboard.sc.edu | https://eciv340l.netlify.app/\r\nInstructor\r\nFahim Ahmed, M.S.\r\nOffice Location: 300 Main ST.Office Room: C110Email: ahmedf@email.sc.edu\r\nOffice Hours\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-08-17T14:34:16-04:00"
     },
     {
       "path": "course-material.html",
       "title": "Topics",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-04-08T19:18:26-04:00"
+      "last_modified": "2021-08-17T14:50:51-04:00"
+    },
+    {
+      "path": "COVID-19.html",
+      "title": "COVID-19 Guidelines",
+      "description": "Fall 2021",
+      "author": [],
+      "contents": "\r\nGuidelines from University:\r\nGuidelines for ECIV 340L class:\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-08-17T13:42:27-04:00"
     },
     {
       "path": "index.html",
       "title": "Transportation Engineering Laboratory",
       "description": "ECIV 340L   \nDepartment of Civil and Environmental Engineering    \nUniversity of South Carolina\n",
       "author": [],
-      "contents": "\r\n\r\nbody {\r\ntext-align: justify}\r\nInstructor\r\nFahim Ahmed, M.S.\r\nOffice Location: 300M C110\r\nClass Time: F 8:40 am – 11:40 am\r\nOffice Telephone: N/A\r\nClass Location: 300M B123 Office\r\nHours: Open door policy\r\nClass Webpage: blackboard.sc.edu | https://eciv340l.netlify.app/ Email: ahmedf@email.sc.edu\r\nCourse Description\r\nThis course aims to provide students with sound data collection and analysis techniques. This course is intended to complement the materials covered in Introduction to Transportation Engineering (ECIV 340), with emphasis on field experience.\r\nLearning Outcomes\r\nAt the conclusion of this course, students should be able to:\r\nCollect necessary traffic data to support traffic impact studies and transportation planning studies.\r\nMake field book entry and perform engineering calculations in proper format using self-measured data.\r\nWrite engineering reports.\r\nPrerequisites/Co-Requisites\r\nStudents must either have previously completed ECIV 340 or take ECIV 340 in the same semester as this course (ECIV 340L). Students are expected to be proficient with Microsoft Excel.\r\nUseful References\r\n1. “Introduction to Traffic Engineering: A Manual for data Collection and Analysis” 2nd edition by Thomas R. Currin. Cengage Learning, 2013.\r\n“Elementary Surveying: An Introduction to Geomatics” 14th edition by Charles D. Ghilani and Paul R. Wolf. Prentice Hall, 2015.\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-04-08T19:18:28-04:00"
+      "contents": "\r\n\r\nbody {\r\ntext-align: justify}\r\nCourse Description\r\nThis course aims to provide students with sound data collection and analysis techniques. This course is intended to complement the materials covered in Introduction to Transportation Engineering (ECIV 340), with emphasis on field experience.\r\nLearning Outcomes\r\nAt the conclusion of this course, students should be able to:\r\nCollect necessary traffic data to support traffic impact studies and transportation planning studies.\r\nMake field book entry and perform engineering calculations in proper format using self-measured data.\r\nWrite engineering reports.\r\nPrerequisites/Co-Requisites\r\nStudents must either have previously completed ECIV 340 or take ECIV 340 in the same semester as this course (ECIV 340L). Students are expected to be proficient with Microsoft Excel.\r\nUseful References\r\n1. “Introduction to Traffic Engineering: A Manual for data Collection and Analysis” 2nd edition by Thomas R. Currin. Cengage Learning, 2013.\r\n“Elementary Surveying: An Introduction to Geomatics” 14th edition by Charles D. Ghilani and Paul R. Wolf. Prentice Hall, 2015.\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-08-17T15:10:54-04:00"
     },
     {
       "path": "Resources.html",
       "title": "Resources",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-04-08T19:18:31-04:00"
+      "last_modified": "2021-08-17T13:44:16-04:00"
+    },
+    {
+      "path": "syllabus.html",
+      "title": "Syllabus",
+      "description": "Fall 2021\n",
+      "author": [],
+      "contents": "\r\nThe syllabus of Fall 2021 for the ECIV 340L course are uploaded in Blackboard.\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-08-17T14:14:47-04:00"
     }
   ],
   "collections": ["posts/posts.json"]

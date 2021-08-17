@@ -7,6 +7,12 @@ navbar:
   right:
     - text: "Home"
       href: index.html
+    - text: "Fall 2021 Class"
+      href: class.html
+    - text: "COVID-19"
+      href: covid-19.html
+    - text: "Syllabus"
+      href: syllabus.html
     - text: "Course Materials"
       href: course-material.html
     - text: "Resources"
