@@ -1,4 +1,19 @@
 ---
-title: "Resources"
+title: "Notes and Resources"
 description: |
 ---
+
+
+<style>
+body {
+text-align: justify}
+</style>
+
+# Quick Notes:  
+
+
+
+# Resources  
+
++ **[Lab Assessment Rubric](https://emailsc-my.sharepoint.com/:b:/g/personal/ahmedf_email_sc_edu/Ebq5hQTjNd9PkViku725LnkB_1BUYHKYxn6Gux4Wk_Xjkw?e=ph0XrS)**
++ **[]()**

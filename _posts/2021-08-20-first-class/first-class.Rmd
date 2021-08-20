@@ -1,0 +1,23 @@
+---
+title: "ECIV 340L Introduction: Fall 2021"
+description: |
+  First Class of Fall 2021
+author:
+  - name: ECIV 340L, CEE, UofSC
+date: 08-20-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+<style>
+body {
+text-align: justify}
+</style>
+
+
+
+RELATED RESOUCES:  
+
++ **[LECTURE SLIDES](https://emailsc-my.sharepoint.com/:p:/g/personal/ahmedf_email_sc_edu/EeecMTR6KiZJuHATjnVjOm0BzWATawjz4z5WA1Xk0oMjMA?e=6lQY3J)**
+

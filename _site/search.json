@@ -12,15 +12,15 @@
       "title": "Topics",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-08-19T22:55:19-04:00"
+      "last_modified": "2021-08-20T11:36:41-04:00"
     },
     {
       "path": "COVID-19.html",
       "title": "COVID-19 Guidelines",
       "description": "Fall 2021",
       "author": [],
-      "contents": "\r\nGuidelines from University:\r\nGuidelines for ECIV 340L class:\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-08-17T13:42:27-04:00"
+      "contents": "\r\nGuidelines from University:\r\nIn accordance with university policy, you are required to wear a mask upon entering the building. Masks will need to stay on during class.\r\nFollow detailed guideline from university website\r\nGuidelines for ECIV 340L class:\r\nThe ECIV 340L course is taught face-to-face and the students work in group. Thus, the students are encouraged to adhere to these guidelines:\r\nUse FACE MASKS when in the building and while working in a group. Face Masks (one-time use) can be provided upon request or they might be placed in-class.\r\nUse hand gloves when using the lab equipment, HAND GLOVES will be provided in each class by the instructor\r\nMaintain social distancing while interaction with other students/instructors, as much as possible\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-08-20T11:36:04-04:00"
     },
     {
       "path": "index.html",
@@ -28,14 +28,14 @@
       "description": "ECIV 340L   \nDepartment of Civil and Environmental Engineering    \nUniversity of South Carolina\n",
       "author": [],
       "contents": "\r\n\r\nbody {\r\ntext-align: justify}\r\nCourse Description\r\nThis course aims to provide students with sound data collection and analysis techniques. This course is intended to complement the materials covered in Introduction to Transportation Engineering (ECIV 340), with emphasis on field experience.\r\nLearning Outcomes\r\nAt the conclusion of this course, students should be able to:\r\nCollect necessary traffic data to support traffic impact studies and transportation planning studies.\r\nMake field book entry and perform engineering calculations in proper format using self-measured data.\r\nWrite engineering reports.\r\nPrerequisites/Co-Requisites\r\nStudents must either have previously completed ECIV 340 or take ECIV 340 in the same semester as this course (ECIV 340L). Students are expected to be proficient with Microsoft Excel. The prerequisite for the class are ECIV 101 and STAT 509.\r\nUseful References\r\n1. “Introduction to Traffic Engineering: A Manual for data Collection and Analysis” 2nd edition by Thomas R. Currin. Cengage Learning, 2013.\r\n“Elementary Surveying: An Introduction to Geomatics” 14th edition by Charles D. Ghilani and Paul R. Wolf. Prentice Hall, 2015.\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-08-19T22:55:28-04:00"
+      "last_modified": "2021-08-20T11:36:59-04:00"
     },
     {
       "path": "Resources.html",
-      "title": "Resources",
+      "title": "Notes and Resources",
       "author": [],
-      "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-08-17T13:44:16-04:00"
+      "contents": "\r\n\r\nbody {\r\ntext-align: justify}\r\nQuick Notes:\r\nResources\r\nLab Assessment Rubric\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-08-20T11:36:50-04:00"
     },
     {
       "path": "syllabus.html",
