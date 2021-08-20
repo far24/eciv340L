@@ -5,4 +5,14 @@ description: |
   
 ---
 
-The syllabus of Fall 2021 for the ECIV 340L course are uploaded in Blackboard.
+The detailed syllabus of Fall 2021 for the ECIV 340L course can be found in Blackboard.
+
+
+## <font color="993300">Tentative Class Schedule</font> 
+
+![ECIV 340L Fall 2021 Schdule](schedule.PNG)
+
+
+## <font color="993300">Grading Timeline</font>
+
++ Expect graded lab reports within 1 week of submission.
