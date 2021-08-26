@@ -1,7 +1,7 @@
 ---
 title: "Distance and Elevation Measurements"
 description: |
-  The purposed of this lab is ...
+  The purposed of this lab is to learn how to take linear and elevation measurements and record data in the field and level book.
 author:
   - name: ECIV 340L, CEE, UofSC
 date: 08-27-2021
@@ -19,13 +19,19 @@ text-align: justify}
 </style>
 
 
+```{r, echo=FALSE}
+library(fontawesome)
+```
 
 
 RELATED RESOUCES:  
 
-+ **[LECTURE SLIDES]()**
-+ **[DEMO CALCULATION]()**
-+ **[DATA FORM]()**
++ `r fa(name = "fas fa-check-circle", fill = "green")` **[LECTURE SLIDES](https://emailsc-my.sharepoint.com/:p:/g/personal/ahmedf_email_sc_edu/ERdRyWJjtnRIo8Nbb7w894wBZVB9_m6Pa_Ufl03OJawhgQ?e=vafl50)** 
++ `r fa(name = "fas fa-times-circle", fill = "red")` **[DEMO CALCULATION]()**
++ `r fa(name = "fas fa-check-circle", fill = "green")` **[LEVEL BOOK](https://emailsc-my.sharepoint.com/:b:/g/personal/ahmedf_email_sc_edu/ESyiKQnHnZVCqqfCTH8MAJoBwobAMCcLoEvl_7Kj3aNHZA?e=OxD4TD)**
++ `r fa(name = "fas fa-check-circle", fill = "green")` **[FIELD BOOK](https://emailsc-my.sharepoint.com/:b:/g/personal/ahmedf_email_sc_edu/EbY8KWP9bDdAhe9G0sqjULYB6jo5q9xZEoQJAWC4ErwGMw?e=MgWRvZ)**
++ `r fa(name = "fas fa-times-circle", fill = "red")` **[DATA FORM]()**
++ `r fa(name = "fas fa-check-circle", fill = "green")` **[LAB PROCEDURE (FIELD)](https://emailsc-my.sharepoint.com/:b:/g/personal/ahmedf_email_sc_edu/EZMg12TFbe5GkGabbL3K1T0BgIA6DWKXxfmxdaLl0xvwJw?e=rFPFJD)**
 
 
 # Distance and Elevation Measurement
