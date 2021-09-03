@@ -12,7 +12,7 @@
       "title": "Topics",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-09-03T09:22:25-04:00"
+      "last_modified": "2021-09-03T11:19:33-04:00"
     },
     {
       "path": "COVID-19.html",
@@ -28,7 +28,7 @@
       "description": "ECIV 340L   \nDepartment of Civil and Environmental Engineering    \nUniversity of South Carolina\n",
       "author": [],
       "contents": "\r\n\r\nbody {\r\ntext-align: justify}\r\nCourse Description\r\nThis course aims to provide students with sound data collection and analysis techniques. This course is intended to complement the materials covered in Introduction to Transportation Engineering (ECIV 340), with emphasis on field experience.\r\nLearning Outcomes\r\nAt the conclusion of this course, students should be able to:\r\nCollect necessary traffic data to support traffic impact studies and transportation planning studies.\r\nMake field book entry and perform engineering calculations in proper format using self-measured data.\r\nWrite engineering reports.\r\nPrerequisites/Co-Requisites\r\nStudents must either have previously completed ECIV 340 or take ECIV 340 in the same semester as this course (ECIV 340L). Students are expected to be proficient with Microsoft Excel. The prerequisite for the class are ECIV 101 and STAT 509.\r\nUseful References\r\n1. “Introduction to Traffic Engineering: A Manual for data Collection and Analysis” 2nd edition by Thomas R. Currin. Cengage Learning, 2013.\r\n“Elementary Surveying: An Introduction to Geomatics” 14th edition by Charles D. Ghilani and Paul R. Wolf. Prentice Hall, 2015.\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-09-03T00:00:57-04:00"
+      "last_modified": "2021-09-03T11:40:21-04:00"
     },
     {
       "path": "Resources.html",
@@ -42,8 +42,8 @@
       "title": "Syllabus",
       "description": "Fall 2021\n",
       "author": [],
-      "contents": "\r\nThe detailed syllabus of Fall 2021 for the ECIV 340L course can be found in Blackboard.\r\nTentative Class Schedule\r\nECIV 340L Fall 2021 SchduleGrading Timeline\r\nExpect graded lab reports within 1 week of submission.\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-08-19T22:20:06-04:00"
+      "contents": "\r\n\r\n\r\n\r\nThe detailed syllabus of Fall 2021 for the ECIV 340L course can be found in Blackboard.\r\nActivity Tracker\r\nLAB REPORT (LR)\r\nLR Submission Deadline\r\nLR Assigned\r\nLR Score Updated\r\n#01 Dist. and Elev.\r\nSept 3 by 11.59 PM\r\n\r\n\r\n#02 Contouring (GROUP)\r\nSept 10 by 11.59 PM\r\n\r\n\r\n#02 Contouring (Ind.)\r\nSept 10 by 11.59 PM\r\n\r\n\r\n#03\r\n\r\n\r\n\r\n#04\r\n\r\n\r\n\r\n#05\r\n\r\n\r\n\r\n#06\r\n\r\n\r\n\r\n#07\r\n\r\n\r\n\r\n#08\r\n\r\n\r\n\r\n#09\r\n\r\n\r\n\r\n#10\r\n\r\n\r\n\r\n#11\r\n\r\n\r\n\r\n#12\r\n\r\n\r\n\r\n#13\r\n\r\n\r\n\r\nTentative Class Schedule\r\nECIV 340L Fall 2021 SchduleGrading Timeline\r\nExpect graded lab reports within 1 week of submission.\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-09-03T11:39:07-04:00"
     }
   ],
   "collections": ["posts/posts.json"]
