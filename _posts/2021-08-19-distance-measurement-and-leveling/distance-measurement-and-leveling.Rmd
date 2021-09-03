@@ -10,121 +10,112 @@ output:
     toc: true
     toc_float: true
     toc_depth: 3
-
 ---
 
+```{=html}
 <style>
 body {
 text-align: justify}
 </style>
-
-
+```
 ```{r, echo=FALSE}
 library(fontawesome)
 ```
 
+RELATED RESOUCES:
 
-RELATED RESOUCES:  
-
-+ `r fa(name = "fas fa-check-circle", fill = "green")` **[LECTURE SLIDES](https://emailsc-my.sharepoint.com/:p:/g/personal/ahmedf_email_sc_edu/ERdRyWJjtnRIo8Nbb7w894wBZVB9_m6Pa_Ufl03OJawhgQ?e=vafl50)** 
-+ `r fa(name = "fas fa-times-circle", fill = "red")` **[DEMO CALCULATION]()**
-+ `r fa(name = "fas fa-check-circle", fill = "green")` **[LEVEL BOOK](https://emailsc-my.sharepoint.com/:b:/g/personal/ahmedf_email_sc_edu/ESyiKQnHnZVCqqfCTH8MAJoBwobAMCcLoEvl_7Kj3aNHZA?e=OxD4TD)**
-+ `r fa(name = "fas fa-check-circle", fill = "green")` **[FIELD BOOK](https://emailsc-my.sharepoint.com/:b:/g/personal/ahmedf_email_sc_edu/EbY8KWP9bDdAhe9G0sqjULYB6jo5q9xZEoQJAWC4ErwGMw?e=MgWRvZ)**
-+ `r fa(name = "fas fa-times-circle", fill = "red")` **[DATA FORM]()**
-+ `r fa(name = "fas fa-check-circle", fill = "green")` **[LAB PROCEDURE (FIELD)](https://emailsc-my.sharepoint.com/:b:/g/personal/ahmedf_email_sc_edu/EZMg12TFbe5GkGabbL3K1T0BgIA6DWKXxfmxdaLl0xvwJw?e=rFPFJD)**
-
+-   `r fa(name = "fas fa-check-circle", fill = "green")` [**LECTURE SLIDES**](https://emailsc-my.sharepoint.com/:p:/g/personal/ahmedf_email_sc_edu/ERdRyWJjtnRIo8Nbb7w894wBZVB9_m6Pa_Ufl03OJawhgQ?e=vafl50)
+-   `r fa(name = "fas fa-times-circle", fill = "red")` [**DEMO CALCULATION**]()
+-   `r fa(name = "fas fa-check-circle", fill = "green")` [**LEVEL BOOK**](https://emailsc-my.sharepoint.com/:b:/g/personal/ahmedf_email_sc_edu/ESyiKQnHnZVCqqfCTH8MAJoBwobAMCcLoEvl_7Kj3aNHZA?e=OxD4TD)
+-   `r fa(name = "fas fa-check-circle", fill = "green")` [**FIELD BOOK**](https://emailsc-my.sharepoint.com/:b:/g/personal/ahmedf_email_sc_edu/EbY8KWP9bDdAhe9G0sqjULYB6jo5q9xZEoQJAWC4ErwGMw?e=MgWRvZ)
+-   `r fa(name = "fas fa-times-circle", fill = "red")` [**DATA FORM**]()
+-   `r fa(name = "fas fa-check-circle", fill = "green")` [**LAB PROCEDURE (FIELD)**](https://emailsc-my.sharepoint.com/:b:/g/personal/ahmedf_email_sc_edu/EZMg12TFbe5GkGabbL3K1T0BgIA6DWKXxfmxdaLl0xvwJw?e=rFPFJD)
 
 # Distance and Elevation Measurement
 
-Distance measurement is generally regarded as the most fundamental of all surveying observations.  In traditional ground surveys, even though many angles may be read, the length of at least one line must be measured to supplement the angles in locating points.  In plane surveying, the distance between two points means the horizontal distance.
+Distance measurement is generally regarded as the most fundamental of all surveying observations. In traditional ground surveys, even though many angles may be read, the length of at least one line must be measured to supplement the angles in locating points. In plane surveying, the distance between two points means the horizontal distance.
 
-If the points are at different elevations, the distance is the horizontal length between vertical lines at the points. Lengths of lines may be specified in different units.  In the United States, the **foot**, decimally divided, is usually used although the meter is becoming increasingly more common.  Geodetic surveys, and many highway surveys employ the meter.  In architectural and machine work, and on some construction projects, the unit is a foot divided into inches and fractions of an inch.
+If the points are at different elevations, the distance is the horizontal length between vertical lines at the points. Lengths of lines may be specified in different units. In the United States, the **foot**, decimally divided, is usually used although the meter is becoming increasingly more common. Geodetic surveys, and many highway surveys employ the meter. In architectural and machine work, and on some construction projects, the unit is a foot divided into inches and fractions of an inch.
 
-# Methods  
+# Methods
+
 ## Linear Measurements
-In surveying, linear measurements have been obtained by many different methods.  These include:  
 
-(1) pacing,  
-(2) odometer readings,  
-(3) optical rangefinders,  
-(4) tacheometry (stadia),  
-(5) subtense bars,  
-(6) taping,  
-(7) electronic distance measurement (EDM),  
-(8) satellite systems, and others.   
+In surveying, linear measurements have been obtained by many different methods. These include:
 
-Of these, surveyors most commonly use taping, EDM, and satellite systems today.  In particular, the satellite-supported *Global Navigation Satellite Systems (GNSS)* are rapidly replacing all other systems due to many advantages, but most notably because of their range, accuracy, and efficiency. 
+(1) pacing,\
+(2) odometer readings,\
+(3) optical rangefinders,\
+(4) tacheometry (stadia),\
+(5) subtense bars,\
+(6) taping,\
+(7) electronic distance measurement (EDM),\
+(8) satellite systems, and others.
+
+Of these, surveyors most commonly use taping, EDM, and satellite systems today. In particular, the satellite-supported *Global Navigation Satellite Systems (GNSS)* are rapidly replacing all other systems due to many advantages, but most notably because of their range, accuracy, and efficiency.
 
 ### Taping
 
-![Sample setup for Taping and Pacing](taping_setup.PNG)
-![Field Book Entry](taping_field_book_entry.PNG)
+![Sample setup for Taping and Pacing](taping_setup.PNG) ![Field Book Entry](taping_field_book_entry.PNG)
 
-### Pacing  
-Distances obtained by pacing are sufficiently accurate for many purposes in surveying, engineering, geology, agriculture, forestry, and military field sketching.  Pacing is also used to detect blunders that may occur in making distance observations by more accurate methods.
+### Pacing
 
-Pacing consists of counting the number of steps, or paces, in a required distance.  The length of an individual’s pace must be determined first.  This is best done by walking with natural steps back and forth over a level course at least 300 ft long and dividing the known distance by the average number of steps.  For short distances, the length of each pace is needed, but the number of steps taken per 100 ft is desirable for checking long lines.  
+Distances obtained by pacing are sufficiently accurate for many purposes in surveying, engineering, geology, agriculture, forestry, and military field sketching. Pacing is also used to detect blunders that may occur in making distance observations by more accurate methods.
 
-Pacing is one of the most valuable things learned in surveying, since it has practical applications for everybody and requires no equipment.  If the terrain is open and reasonably level, experienced pacers can measure distances of 100 ft or longer with an accuracy of 1/50 to 1/100 of the distance.  
+Pacing consists of counting the number of steps, or paces, in a required distance. The length of an individual's pace must be determined first. This is best done by walking with natural steps back and forth over a level course at least 300 ft long and dividing the known distance by the average number of steps. For short distances, the length of each pace is needed, but the number of steps taken per 100 ft is desirable for checking long lines.
+
+Pacing is one of the most valuable things learned in surveying, since it has practical applications for everybody and requires no equipment. If the terrain is open and reasonably level, experienced pacers can measure distances of 100 ft or longer with an accuracy of 1/50 to 1/100 of the distance.
 
 ## Elevation Measurements
-### Leveling  
-Leveling is the general term applied to any of the various processes by which elevations of points or differences in elevation are determined.  It is a vital operation in producing necessary data for mapping, engineering design, and construction.  Leveling results are used to (1) design highways, railroads, canals, sewers, water supply systems, and other facilities having grade lines that best conform to existing topography; (2) lay out construction projects according to planned elevations; (3) calculate volumes of earthwork and other materials; (4) investigate drainage characteristics of an area; (5) develop maps showing general ground configurations; and (6) study earth subsidence and crustal motion.
 
-**Definitions**  
+### Leveling
+
+Leveling is the general term applied to any of the various processes by which elevations of points or differences in elevation are determined. It is a vital operation in producing necessary data for mapping, engineering design, and construction. Leveling results are used to (1) design highways, railroads, canals, sewers, water supply systems, and other facilities having grade lines that best conform to existing topography; (2) lay out construction projects according to planned elevations; (3) calculate volumes of earthwork and other materials; (4) investigate drainage characteristics of an area; (5) develop maps showing general ground configurations; and (6) study earth subsidence and crustal motion.
+
+**Definitions**
 
 ![](diff_leveling.PNG)
 
-**Leveling:** The process of finding elevations of points or their differences in elevation.  
-**Benchmark (BM):** A relatively permanent object, natural or artificial, having a marked point whose elevation above or below a reference datum is known or assumed.  
-**Backsight (BS):** A sight taken to the level rod held at a point of known elevation (either a BM or TP).  
-**Height of instrument (HI):** The elevation of the line of sight of the telescope.  
+**Leveling:** The process of finding elevations of points or their differences in elevation.\
+**Benchmark (BM):** A relatively permanent object, natural or artificial, having a marked point whose elevation above or below a reference datum is known or assumed.\
+**Backsight (BS):** A sight taken to the level rod held at a point of known elevation (either a BM or TP).\
+**Height of instrument (HI):** The elevation of the line of sight of the telescope.\
 **Foresight (FS):** A sight taken on any point to determine its elevation.
 
-### Differential Leveling  
+### Differential Leveling
+
 Differential leveling is the process of measuring vertical distances from a known elevation point to determine elevations of unknown points.
 
 ![](diff_level_prob.PNG)
 
-The elevation of point A is 100 feet.  Using this information determine the elevation of point B.
+The elevation of point A is 100 feet. Using this information determine the elevation of point B.
 
-**Steps 1**:  
+**Steps 1**:
 
 ![](diff_level_step1.PNG)
- 
-**Step 2**:  
+
+**Step 2**:
 
 ![](diff_level_step2.PNG)
 
-
-**Step 3**:  
+**Step 3**:
 
 ![](diff_level_step3.PNG)
 
-**Step 4**:  
+**Step 4**:
 
 ![](diff_level_step4.PNG)
 
-**Step 5**:  
+**Step 5**:
 
 ![](diff_level_step5.PNG)
 
-**Step 6**:  
+**Step 6**:
 
 ![](diff_level_step6.PNG)
 
-**Step 7**:  
+**Step 7**:
 
 ![](diff_level_step7.PNG)
 
-
-
 The elevation of point B = 105.92 feet.
-
-
-
-
-
-
-
-
