@@ -2,7 +2,6 @@
 title: "Syllabus"
 description: |
   Fall 2021
-  
 ---
 
 ```{r, echo=FALSE}
@@ -11,32 +10,29 @@ library(fontawesome)
 
 The detailed syllabus of Fall 2021 for the ECIV 340L course can be found in Blackboard.
 
-
 ## Activity Tracker
 
-| LAB REPORT (LR)        | LR Submission Deadline |                      LR Assigned                      |                   LR Score Updated                      |
-|------------------------|:----------------------:|:-----------------------------------------------------:|:-------------------------------------------------------:|
-| #01 Dist. and Elev.    |   Sept 3 by 11.59 PM   | `r fa(name = "fas fa-check-circle", fill = "green")`  | `r fa(name = "fas fa-hourglass-half", fill = "orange")` |
-| #02 Contouring (GROUP) |   Sept 10 by 11.59 PM  |`r fa(name = "fas fa-hourglass-half", fill = "orange")`| `r fa(name = "fas fa-hourglass-half", fill = "orange")` |
-| #02 Contouring (Ind.)  |   Sept 10 by 11.59 PM  |`r fa(name = "fas fa-hourglass-half", fill = "orange")`| `r fa(name = "fas fa-hourglass-half", fill = "orange")` |
-| #03                    |                        |                                                       |                                                         |
-| #04                    |                        |                                                       |                                                         |
-| #05                    |                        |                                                       |                                                         |
-| #06                    |                        |                                                       |                                                         |
-| #07                    |                        |                                                       |                                                         |
-| #08                    |                        |                                                       |                                                         |
-| #09                    |                        |                                                       |                                                         |
-| #10                    |                        |                                                       |                                                         |
-| #11                    |                        |                                                       |                                                         |
-| #12                    |                        |                                                       |                                                         |
-| #13                    |                        |                                                       |                                                         |
+| LAB REPORT (LR)         | LR Submission Deadline |                       LR Assigned                       |                    LR Score Updated                     |
+|-------------------------|:----------------------:|:-------------------------------------------------------:|:-------------------------------------------------------:|
+| \#01 Dist. and Elev.    |   Sept 3 by 11.59 PM   | `r fa(name = "fas fa-check-circle", fill = "green")`    | `r fa(name = "fas fa-check-circle", fill = "green")`    |
+| \#02 Contouring (GROUP) |  Sept 10 by 11.59 PM   | `r fa(name = "fas fa-hourglass-half", fill = "orange")` | `r fa(name = "fas fa-hourglass-half", fill = "orange")` |
+| \#02 Contouring (Ind.)  |  Sept 10 by 11.59 PM   | `r fa(name = "fas fa-hourglass-half", fill = "orange")` | `r fa(name = "fas fa-hourglass-half", fill = "orange")` |
+| \#03 Total Station      |  Sept 17 by 11.59 PM   | `r fa(name = "fas fa-hourglass-half", fill = "orange")` | `r fa(name = "fas fa-hourglass-half", fill = "orange")` |
+| \#04 Traverse Survey    |  Sept 24 by 11.59 PM   | `r fa(name = "fas fa-hourglass-half", fill = "orange")` | `r fa(name = "fas fa-hourglass-half", fill = "orange")` |
+| \#05                    |                        |                                                         |                                                         |
+| \#06                    |                        |                                                         |                                                         |
+| \#07                    |                        |                                                         |                                                         |
+| \#08                    |                        |                                                         |                                                         |
+| \#09                    |                        |                                                         |                                                         |
+| \#10                    |                        |                                                         |                                                         |
+| \#11                    |                        |                                                         |                                                         |
+| \#12                    |                        |                                                         |                                                         |
+| \#13                    |                        |                                                         |                                                         |
 
-
-## <font color="993300">Tentative Class Schedule</font> 
+## <font color="993300">Tentative Class Schedule</font>
 
 ![ECIV 340L Fall 2021 Schdule](schedule.PNG)
 
-
 ## <font color="993300">Grading Timeline</font>
 
-+ Expect graded lab reports within 1 week of submission.
+-   Expect graded lab reports within 1 week of submission.
