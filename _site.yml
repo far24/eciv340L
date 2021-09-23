@@ -9,13 +9,10 @@ navbar:
       href: index.html
     - text: "Fall 2021 Class"
       href: class.html
-    - text: "COVID-19"
-      href: covid-19.html
-    - text: "Syllabus"
+    - text: "Syllabus & Activity"
       href: syllabus.html
     - text: "Course Materials"
       href: course-material.html
-    - text: "Resources"
-      href: resources.html
+
 
 output: distill::distill_article
