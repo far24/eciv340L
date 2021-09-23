@@ -14,12 +14,12 @@ The detailed syllabus of Fall 2021 for the ECIV 340L course can be found in Blac
 
 | LAB REPORT (LR)         | LR Submission Deadline |                       LR Assigned                       |                    LR Score Updated                     |
 |-------------------------|:----------------------:|:-------------------------------------------------------:|:-------------------------------------------------------:|
-| \#01 Dist. and Elev.    |   Sept 3 by 11.59 PM   | `r fa(name = "fas fa-check-circle", fill = "green")`    | `r fa(name = "fas fa-check-circle", fill = "green")`    |
-| \#02 Contouring (GROUP) |  Sept 10 by 11.59 PM   | `r fa(name = "fas fa-hourglass-half", fill = "orange")` | `r fa(name = "fas fa-hourglass-half", fill = "orange")` |
-| \#02 Contouring (Ind.)  |  Sept 10 by 11.59 PM   | `r fa(name = "fas fa-hourglass-half", fill = "orange")` | `r fa(name = "fas fa-hourglass-half", fill = "orange")` |
-| \#03 Total Station      |  Sept 17 by 11.59 PM   | `r fa(name = "fas fa-hourglass-half", fill = "orange")` | `r fa(name = "fas fa-hourglass-half", fill = "orange")` |
-| \#04 Traverse Survey    |  Sept 24 by 11.59 PM   | `r fa(name = "fas fa-hourglass-half", fill = "orange")` | `r fa(name = "fas fa-hourglass-half", fill = "orange")` |
-| \#05                    |                        |                                                         |                                                         |
+| \#01 Dist. and Elev.    |  Sept 03 by 11.59 PM   | `r fa(name = "fas fa-check-circle", fill = "green")`    | `r fa(name = "fas fa-check-circle", fill = "green")`    |
+| \#02 Contouring (GROUP) |  Sept 10 by 11.59 PM   | `r fa(name = "fas fa-check-circle", fill = "green")`    | `r fa(name = "fas fa-hourglass-half", fill = "orange")` |
+| \#02 Contouring (Ind.)  |  Sept 10 by 11.59 PM   | `r fa(name = "fas fa-check-circle", fill = "green")`    | `r fa(name = "fas fa-check-circle", fill = "green")`    |
+| \#03 Total Station      |  Sept 17 by 11.59 PM   | `r fa(name = "fas fa-check-circle", fill = "green")`    | `r fa(name = "fas fa-hourglass-half", fill = "orange")` |
+| \#04 Traverse Survey    |  Sept 24 by 11.59 PM   | `r fa(name = "fas fa-check-circle", fill = "green")`    | `r fa(name = "fas fa-hourglass-half", fill = "orange")` |
+| \#05 Highway Alignment  |  OCT  01 by 11.59 PM   | `r fa(name = "fas fa-check-circle", fill = "green")`    |                                                         |
 | \#06                    |                        |                                                         |                                                         |
 | \#07                    |                        |                                                         |                                                         |
 | \#08                    |                        |                                                         |                                                         |
