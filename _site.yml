@@ -13,6 +13,8 @@ navbar:
       href: syllabus.html
     - text: "Course Materials"
       href: course-material.html
+    - text: "Project"
+      href: 2021_fall_project.html
 
 
 output: distill::distill_article
