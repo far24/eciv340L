@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2021-09-30-surface-area-and-volume/",
+    "title": "Surface Area and Earthwork",
+    "description": "The purposed of this lab is to learn how to identify station in the highway horizontal curve using Total Station (TS).",
+    "author": [
+      {
+        "name": "ECIV 340L, CEE, UofSC",
+        "url": {}
+      }
+    ],
+    "date": "2021-10-01",
+    "categories": [],
+    "contents": "\r\n\r\nContents\r\nSurface Area\r\nEarthwork (Volume)\r\nSample Task\r\n\r\n\r\nbody {\r\ntext-align: justify}\r\n\r\n\r\n\r\nRELATED RESOUCES:\r\nLECTURE SLIDES\r\nLEVEL BOOK\r\nFIELD BOOK\r\nDATA FORM\r\nLAB PROCEDURE (FIELD)\r\n`DEMO CALCULATION\r\nSurface Area\r\nThere are a number of important reasons for determining areas. One is to include the acreage of a parcel of land in the deed describing the property. Other purposes are to determine the acreage of fields, lakes, etc., or the number of square yards to be surfaced, paved, seeded, or sodded. Another important application is determining end areas for earthwork volume calculations. In plane surveying, area is considered to be the orthogonal projection of the surface onto a horizontal plane. In the English system, the most commonly used units for specifying small areas are the ft2 and yd2, and for large tracts the acre is most often used, where 1 acre = 43,560 ft2. In the metric system, smaller areas are usually given in m2, and for larger tracts hectares are commonly used, where 1 hectare is equivalent to a square having sides of 100 m, and thus equals 10,000 m2. In converting areas between the English and metric systems, the conversion factors given below are useful.\r\n\r\nBoth field and map measurements are used to determine area. Field measurement methods are the more accurate and include:\r\ndivision of the tract into simple figures (triangles, rectangles, and trapezoids),\r\noffsets from a straight line,\r\ncoordinates, and\r\ndouble-meridian distances.\r\nMethods of determining area from map measurements include:\r\ncounting coordinate squares,\r\ndividing the area into triangles, rectangles, or other regular geometric shapes,\r\ndigitizing coordinates, and\r\nrunning a planimeter over the enclosing lines.\r\n\r\n\r\n\r\n\r\nEarthwork (Volume)\r\nPersons engaged in surveying (geomatics) are often called on to determine volumes of various types of material. Quantities of earthwork and concrete are needed, for example, on many types of construction projects. Volume computations are also required to determine the capacities of bins, tanks, reservoirs, and buildings, and to check stockpiles of coal, gravel, and other materials. The most common unit of volume is a cube having edges of unit length. Cubic feet, cubic yards, and cubic meters are used in surveying calculations, with cubic yards and cubic meters being most common for earthwork. Note 1 yd3 = 27 ft3; 1 m3 = 35.3144 ft3. Direct measurement of volumes is rarely made in surveying, since it is difficult to actually apply a unit of measure to the material involved. Instead, indirect measurements are obtained by measuring lines and areas that have a relationship to the volume desired. Three principal systems are used:\r\nthe cross-section method,\r\nthe unit-area (or borrow-pit) method, and\r\nthe contour-area method.\r\n\r\n\r\n\r\n\r\nSample Task\r\n\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-09-30T17:04:35-04:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2021-09-23-highway-alignment-field/",
     "title": "Highway Alignment (Field)",
     "description": "The purposed of this lab is to learn how to identify station in the highway horizontal curve using Total Station (TS).",

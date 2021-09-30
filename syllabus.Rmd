@@ -20,7 +20,7 @@ The detailed syllabus of Fall 2021 for the ECIV 340L course can be found in Blac
 | \#03 Total Station      |  Sept 17 by 11.59 PM   | `r fa(name = "fas fa-check-circle", fill = "green")`    | `r fa(name = "fas fa-hourglass-half", fill = "orange")` |
 | \#04 Traverse Survey    |  Sept 24 by 11.59 PM   | `r fa(name = "fas fa-check-circle", fill = "green")`    | `r fa(name = "fas fa-hourglass-half", fill = "orange")` |
 | \#05 Highway Alignment  |  OCT  01 by 11.59 PM   | `r fa(name = "fas fa-check-circle", fill = "green")`    |                                                         |
-| \#06                    |                        |                                                         |                                                         |
+| \#06 Surface Area & Vol.|  OCT  08 by 11.59 PM   |                                                         |                                                         |
 | \#07                    |                        |                                                         |                                                         |
 | \#08                    |                        |                                                         |                                                         |
 | \#09                    |                        |                                                         |                                                         |
