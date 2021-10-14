@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2021-10-14-spot-speed-study/",
+    "title": "Spot Speed Study",
+    "description": {},
+    "author": [
+      {
+        "name": "ECIV 340L, CEE, UofSC",
+        "url": {}
+      }
+    ],
+    "date": "2021-10-15",
+    "categories": [],
+    "contents": "\r\n\r\nContents\r\nIntroduction\r\nEquipment\r\nData Collection\r\nData Analysis\r\nConclusions\r\n\r\n\r\nbody {\r\ntext-align: justify}\r\n\r\n\r\n\r\nRELATED RESOUCES:\r\nLECTURE SLIDES\r\nDATA FORM\r\n`DEMO CALCULATION\r\nIntroduction\r\nObserving vehicle speeds is one way traffic engineers measure travel safety on roadways. High speeds carry a high risk, whereas low speeds are relatively safe. In addition, observed speeds are used in capacity analysis, crash analysis, geometric studies, determining the need for pedestrian crossings, and in before-and-after studies to assess the effectiveness of roadway modifications. Also, speed observations are compared to the posted speed limit to help determine whether the roadway is in need of greater law enforcement, realignment, or reconstruction. With so many important decisions being based on observed speeds, it is imperative that such speed data be collected correctly and presented effectively.\r\nEquipment\r\nThe equipment list for data collection procedure is: a stopwatch (cell phone), measuring tape/wheel, and note taking materials.\r\nData Collection\r\nVisit the site, and choose a location and time to take observations\r\nFor this lab, the student groups will gather data during the off-peak period during daylight hours on a Friday.\r\nMark the speed trap\r\nThe student groups will measure and mark a section of the road long enough to start a stopwatch when a vehicle enters the trap and stop it when the vehicle exists the trap. The recorded time is later used to compute vehicle speed. The trap’s length should be governed by the anticipated speeds of the observed traffic. Minimum suggested lengths are shown below:\r\nRecommended Trap Length\r\nIf Speed \\(< 25 mph\\) then min. length : \\(88 feet\\)\r\nIf Speed \\(25 - 40 mph\\) then min. length : \\(176 feet\\)\r\nIf Speed \\(> 40 mph\\) then min. length : \\(264 feet\\)\r\nPavements marking should be easily visible to those timing the vehicles. Markings should be placed outside the traveled way, preferably on sidewalks or curbs. Physical features such as utility poles, tress, and signposts can be used as the trap markers.\r\nCollect the data, and record it on the Spot Speed Study form\r\nThe student groups must use the attached Spot Speed Study Data Collection Form to record speed data. All of the information at the top of the form must be completed before data collection can proceed. When a vehicle enters the speed trap, and the watch is started; when the vehicle exists the trap the watch is stopped, and the time is recorded. The student groups should then repeat the process until at least 100 observations are obtained.\r\nCheck your work before leaving the field\r\nBefore leaving the field, the data collection form should be checked to see that all field data have been collected correctly. The student groups should compute one or two speeds from the observed times to see if they are reasonable.\r\nData Analysis\r\nCompute speeds\r\nA column is provided on the data collection sheet to compute the speed of the vehicles observed. The speed can be computed using the formula:\r\n\\(V = d / 1.47t\\)\r\nwhere \\(V\\) is the speed in miles per hour, \\(d\\) is the length of the trap in feet, and \\(t\\) is the recorded time in seconds.\r\nConstruct speed groups\r\nClass demo\r\nPlot histogram\r\nClass demo\r\nCompute frequency and cumulative frequency\r\nClass demo\r\nPlot cumulative frequency curve\r\nClass demo\r\nDetermine\r\nthe mean speed,\r\nthe standard deviation of speed,\r\nthe median speed (50th percentile speed),\r\nthe pace,\r\nthe mode or modal speed,\r\nthe 85th percentile speed\r\nClass demo\r\nPace: the range of speed—usually taken at 10 mph intervals—that has the greatest number of observations.\r\nInterpret the speed curve\r\nConclusions\r\nThe last step is to draw conclusion based on the observed speed data.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-10-14T17:30:14-04:00",
+    "input_file": "spot-speed-study.knit.md"
+  },
+  {
     "path": "posts/2021-09-30-surface-area-and-volume/",
     "title": "Surface Area and Earthwork",
     "description": "The purposed of this lab is to learn how to identify station in the highway horizontal curve using Total Station (TS).",

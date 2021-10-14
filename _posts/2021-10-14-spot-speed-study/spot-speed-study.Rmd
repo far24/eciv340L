@@ -1,0 +1,144 @@
+---
+title: "Spot Speed Study"
+description: |
+
+author:
+  - name: ECIV 340L, CEE, UofSC
+    url: {}
+date: 10-15-2021
+output:
+  distill::distill_article:
+    toc: true
+    toc_float: true
+    toc_depth: 3
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+```{=html}
+<style>
+body {
+text-align: justify}
+</style>
+```
+```{r, echo=FALSE}
+library(fontawesome)
+```
+
+RELATED RESOUCES:
+
+-   `r fa(name = "fas fa-check-circle", fill = "green")` [**LECTURE
+    SLIDES**](https://emailsc-my.sharepoint.com/:p:/g/personal/ahmedf_email_sc_edu/EdqX1wH4zKlDqxe3pyU48s0BjoKGbdCgnxrdUPvQwFf4PQ?e=MToH4V)
+-   `r fa(name = "fas fa-check-circle", fill = "green")` [**DATA FORM**](https://emailsc-my.sharepoint.com/:b:/g/personal/ahmedf_email_sc_edu/EcwO2njVTIpCkY6E6fbBPN8BgKzCU3B7RxT8DFIYE5tNQQ?e=VQ2b7u)
+-   \``r fa(name = "fas fa-check-circle", fill = "green")` [**DEMO
+    CALCULATION**](https://emailsc-my.sharepoint.com/:x:/g/personal/ahmedf_email_sc_edu/EWFjh7Ru79pHngLA1SL7Y3oBX3k8yvUXuMlj9kZGWG4Isg?e=esm44P)
+
+
+# Introduction
+Observing vehicle speeds is one way traffic engineers measure travel
+safety on roadways. High speeds carry a high risk, whereas low speeds
+are relatively safe. In addition, observed speeds are used in capacity
+analysis, crash analysis, geometric studies, determining the need for
+pedestrian crossings, and in before-and-after studies to assess the
+effectiveness of roadway modifications. Also, speed observations are
+compared to the posted speed limit to help determine whether the roadway
+is in need of greater law enforcement, realignment, or reconstruction.
+With so many important decisions being based on observed speeds, it is
+imperative that such speed data be collected correctly and presented
+effectively.
+
+# Equipment
+
+The equipment list for data collection procedure is: a stopwatch (cell
+phone), measuring tape/wheel, and note taking materials.
+
+# Data Collection
+
+1.  **Visit the site, and choose a location and time to take
+    observations**
+
+    For this lab, the student groups will gather data during the
+    off-peak period during daylight hours on a Friday.
+
+2.  **Mark the speed trap**
+
+    The student groups will measure and mark a section of the road long
+    enough to start a stopwatch when a vehicle enters the trap and stop
+    it when the vehicle exists the trap. The recorded time is later used
+    to compute vehicle speed. The trap's length should be governed by
+    the anticipated speeds of the observed traffic. Minimum suggested
+    lengths are shown below:
+
+    [Recommended Trap Length]{.ul}
+
+    -   If Speed $< 25 mph$ then min. length : $88 feet$
+
+    -   If Speed $25 - 40 mph$ then min. length : $176 feet$
+
+    -   If Speed $> 40 mph$ then min. length : $264 feet$
+
+    Pavements marking should be easily visible to those timing the
+    vehicles. Markings should be placed outside the traveled way,
+    preferably on sidewalks or curbs. Physical features such as utility
+    poles, tress, and signposts can be used as the trap markers.
+
+3.  **Collect the data, and record it on the Spot Speed Study form**
+
+    The student groups must use the attached Spot Speed Study Data
+    Collection Form to record speed data. All of the information at the
+    top of the form must be completed before data collection can
+    proceed. When a vehicle enters the speed trap, and the watch is
+    started; when the vehicle exists the trap the watch is stopped, and
+    the time is recorded. The student groups should then repeat the
+    process until at least 100 observations are obtained.
+
+4.  **Check your work before leaving the field**\
+    Before leaving the field, the data collection form should be checked
+    to see that all field data have been collected correctly. The
+    student groups should compute one or two speeds from the observed
+    times to see if they are reasonable.
+
+# Data Analysis
+
+1.  **Compute speeds**\
+    A column is provided on the data collection sheet to compute the
+    speed of the vehicles observed. The speed can be computed using the
+    formula:
+
+$V = d / 1.47t$
+
+where $V$ is the speed in miles per hour, $d$ is the length of the trap
+in feet, and $t$ is the recorded time in seconds.
+
+2.  **Construct speed groups**\
+    Class demo
+
+3.  **Plot histogram**\
+    Class demo
+
+4.  Compute frequency and cumulative frequency\
+    Class demo
+
+5.  **Plot cumulative frequency curve**\
+    Class demo
+
+6.  **Determine**
+
+-   *the mean speed,*
+-   *the standard deviation of speed,*
+-   *the median speed (50th percentile speed),*
+-   *the pace,*
+-   *the mode or modal speed,*
+-   *the 85th percentile speed*
+
+*Class demo*
+
+*Pace*: the range of speed---usually taken at 10 mph intervals---that
+has the greatest number of observations.
+
+7.  **Interpret the speed curve**
+
+# Conclusions
+
+The last step is to draw conclusion based on the observed speed data.
