@@ -1,0 +1,148 @@
+---
+title: "Turning Movement Count (TMC)"
+description: |
+
+author:
+  - name: ECIV 340L, CEE, UofSC
+    url: {}
+date: 10-22-2021
+output:
+  distill::distill_article:
+    toc: true
+    toc_float: true
+    toc_depth: 3
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+```{=html}
+<style>
+body {
+text-align: justify}
+</style>
+```
+```{r, echo=FALSE}
+library(fontawesome)
+```
+
+RELATED RESOUCES:
+
+-   `r fa(name = "fas fa-check-circle", fill = "green")` [**LECTURE
+    SLIDES**](https://emailsc-my.sharepoint.com/:p:/g/personal/ahmedf_email_sc_edu/EXtCFYQJ4GRLn9_p5n4k3ZQBAx9EthgT5kYJkFwPh292iA?e=imDJ8O)
+-   `r fa(name = "fas fa-check-circle", fill = "green")` [**DATA FORM**](https://emailsc-my.sharepoint.com/:b:/g/personal/ahmedf_email_sc_edu/EYi5ZStYdmpEpMWqIRxID-8BnerVjANjysGS2jnfwCsGPg?e=UJR3qM)
+-   ``r fa(name = "fas fa-check-circle", fill = "green")` [**DEMO
+    CALCULATION**](https://emailsc-my.sharepoint.com/:x:/g/personal/ahmedf_email_sc_edu/EZfzwW7fHHZLr88lyNo9LMMBFulv7yWZVSmzUM6Yy5FVYg?e=dwvdp7)
+-   ``r fa(name = "fas fa-check-circle", fill = "green")` [**DEMO
+    CALCULATION-2**](https://emailsc-my.sharepoint.com/:x:/g/personal/ahmedf_email_sc_edu/Ecx_4x50QRlFreQfdcB5Z18BeYpvmti1e7Hzns9Q98NUoQ?e=9N0Dyi)
+
+# Introduction
+
+Any traffic Study requires accurate traffic counts. Determining how many
+vehicles use a section of roadway or an intersection is necessary for
+analyzing and timing signals, determining capacity, and estimating the
+level of service that will be needed. Accurate counts of current traffic
+flow provide a departure point for estimates of future traffic volume.
+Moreover, the effectiveness of various traffic control measures,
+geometric modifications, or maintenance practices is governed by traffic
+volume data. The turning movement count at controlled intersections
+(those containing signs or signals) is another way to determine traffic
+volume.
+
+# Equipment
+
+The equipment list for data collection procedure is a stopwatch (cell
+phone) and note-taking materials.
+
+# Data Collection
+
+1.  Visit the site, and choose a location and time to collect the data
+    For this lab session, the student groups will gather data to
+    identify the peak-hour traffic volume and how it varies at the
+    peak-hour period.
+
+As described the student groups will be measuring departure volumes.
+Departure volume denotes vehicles which are not counted until they have
+entered the intersection and executed their turning movements. This
+method serves most traffic engineering needs except when observing a
+signal at which the demand volume exceeds the capacity. Typically, the
+tuning movement counts (TMC) should start at least one hour before the
+projected peak hour and continue for one hour after the projected peak
+hour.
+
+2.  Collect and record the data Data is observed in fifteen minute
+    increments throughout the count periods---usually three hours.
+    Before starting, the times marking the beginning of each
+    fifteen-minute observation period are recorded. Then the watch is
+    started, and the volume count begins. During each time period, the
+    approach that each vehicle used to enter the intersection is
+    recorded as well as whether it turned left, right, or continued
+    straight when exiting the intersection. The Turning Movement Count
+    Data Collection Form has a column for each of the twelve possible
+    movements that can occur at the intersection. At the end of each
+    fifteen-minute period, the observer continues counting but now
+    records the data on the next row, and so on, until the counting
+    period is complete.
+
+3.  Check your work before leaving the field Before leaving the field,
+    the data collection form should be checked to see that all field
+    data have been collected correctly. Any unusual observations should
+    be listed as comments.
+
+# Data Analysis
+
+1.  Check the data Even though the data is checked for completeness
+    prior to leaving the field, it is wise to check each Field Data
+    Sheet again prior to reduction and analysis.
+
+2.  Summarize field sheets Class demo
+
+3.  Identify the peak hour, and compute the peak-hour factor The peak
+    hour and the peak-hour factor are computed from the entries on the
+    summary sheet. The peak hour is determined by identifying the four
+    consecutive fifteen-minute (1-hour) periods having the highest
+    volume. The peak-hour factor (PHF) is a valuable indicator of flow
+    variability within the peak hour. It is computed by dividing the
+    peak-hour volume by the Peak Rate of Flow. The Peak Rate of Flow is
+    four times the peak fifteen-minute flow within the peak hour. PHF's
+    can range from a low of 0.25 to a high of 1.00. PHF of 0.25
+    indicates all of the peak hour traffic occurs during the one
+    fifteen-minute interval whereas PHF of 1.00 indicates the peak hour
+    traffic is spread out evenly throughout the hour.
+
+Note: Computation of the peak-hour factor is not limited to the
+intersection as a whole. It can be computed for each approach and for
+each lane or lane groups as well.
+
+Class demo
+
+4.  Prepare a graphical summary While a tabular summary is useful, a
+    graphical summary presents information that can be more readily
+    comprehended. A check of the entries can be made by summing all of
+    the values for vehicles entering the intersection and comparing it
+    to the sum of the values for vehicle exiting the intersection.
+
+Class demo
+
+5.  Use the HCS7 TWSC module to create report Class demo
+
+6.  Interpret the data and draw conclusions Interpretation of volume
+    data depends on the use for which the count was conducted. Among the
+    questions to be addressed are: • Is the traffic evenly distributed
+    among all the approaches to the intersection? • Does the peak-hour
+    factor indicate that a surge of traffic is arriving at the
+    intersection during particular time frame, or is the traffic spread
+    out evenly over the peak hour? • Are there heavy turning volumes? •
+    What percentage of the approach volume is heavy vehicles?
+
+# Conclusions
+
+The last step is to draw conclusion based on the vehicle counts and the
+report produced from HCS7.
+
+Note: While some of these questions may lead to useful conclusions,
+volume data alone cannot answer all the questions that may arise about
+an intersection. Additional information such as accident history, signal
+timing, pedestrian flow, and volume distribution throughout the
+remainder of the day may be needed to complete the traffic engineering
+analysis.
