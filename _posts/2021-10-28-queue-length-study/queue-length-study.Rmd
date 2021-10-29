@@ -29,13 +29,9 @@ library(fontawesome)
 RELATED RESOUCES:
 
 -   `r fa(name = "fas fa-check-circle", fill = "green")` [**LECTURE
-    SLIDES**](https://emailsc-my.sharepoint.com/:p:/g/personal/ahmedf_email_sc_edu/EXtCFYQJ4GRLn9_p5n4k3ZQBAx9EthgT5kYJkFwPh292iA?e=imDJ8O)
+    SLIDES**](https://emailsc-my.sharepoint.com/:p:/g/personal/ahmedf_email_sc_edu/EcP8yVZosRhKsxxC-HVcz1UBAtpE6Vyz_4qRbWqjNUBFcQ?e=ZX5JQt)
 -   `r fa(name = "fas fa-check-circle", fill = "green")` [**DATA
-    FORM**](https://emailsc-my.sharepoint.com/:b:/g/personal/ahmedf_email_sc_edu/EYi5ZStYdmpEpMWqIRxID-8BnerVjANjysGS2jnfwCsGPg?e=UJR3qM)
--   \``r fa(name = "fas fa-check-circle", fill = "green")` [**DEMO
-    CALCULATION**](https://emailsc-my.sharepoint.com/:x:/g/personal/ahmedf_email_sc_edu/EZfzwW7fHHZLr88lyNo9LMMBFulv7yWZVSmzUM6Yy5FVYg?e=rRhrW2)
--   \``r fa(name = "fas fa-check-circle", fill = "green")` [**DEMO
-    CALCULATION-2**](https://emailsc-my.sharepoint.com/:x:/g/personal/ahmedf_email_sc_edu/Ecx_4x50QRlFreQfdcB5Z18BeYpvmti1e7Hzns9Q98NUoQ?e=9N0Dyi)
+    FORM**](https://emailsc-my.sharepoint.com/:b:/g/personal/ahmedf_email_sc_edu/ETt75bArrpBLi6RIWqQ6Qc4BnVsQQGBowNh1SXA_Q4w_6A?e=1z9Cwl)
 
 # INTRODUCTION
 

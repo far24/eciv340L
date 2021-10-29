@@ -19,7 +19,7 @@ text-align: justify}
 </style>
 ```
 
-# PROJECT PROBLEM STATEMENT:
+# PROJECT PROBLEM STATEMENT
 
 The ECIV 340L company has hired three surveying company to find the topography of three existing routes.  The three companies: Yellow, Blue, and Red are assigned three routes as shown in the Site Selection section.  The aim is to find elevations at **20 feet** interval along the routes. In addition, the companies are required to use **at least one turning point (TP)** along the designated routes. The BM information is provided in the Site Selection section.  The deliverables from each of these companies are:  
    
@@ -34,18 +34,48 @@ The ECIV 340L company has hired three surveying company to find the topography o
 
 ## 1. Reading (20%)
 
+[Profile Leveling](https://eciv340l.netlify.app/posts/2021-10-28-profile-leveling/)
+
+
+
 
 
 ## 2. Site Selection (0%)
 
 ![Project Site: YELLOW](2021_Fall_project_site_yellow.PNG)
 
+
+
+
+
 ![Project Site: BLUE](2021_Fall_project_site_blue.PNG)
+
+
+
+
 
 ![Project Site: RED](2021_Fall_project_site_red.PNG)
 
 
-## 3. Data Collection (30%)
+
+
+
+![Project Site: Benchmark-1 (BM-1)](2021_Fall_project_BM_1.PNG)
+
+
+
+
+
+![Project Site: Benchmark-2 (BM-2)](2021_Fall_project_BM_2.PNG)
+
+
+
+
+
+
+
+
+## 3. Data Collection and Data Analysis (50%)
 
   - To collect data, schedule a time to reserve equipment via email: ahmedf@email.sc.edu
     Your email should include the following information:
@@ -55,7 +85,5 @@ The ECIV 340L company has hired three surveying company to find the topography o
       - indicated when are you going to return the equipment
   - Prepare a data form.  The data form will be similar to lab session related to contouring
 
+## 5. Presentation and Submission (30%)
 
-## 4. Data Analysis and Conclusion (30%)
-
-## 5. Presentation and Submission (20%)

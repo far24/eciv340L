@@ -5,8 +5,8 @@
       "title": "ECIV 340L Project",
       "description": "Fall 2021\n",
       "author": [],
-      "contents": "\r\n\r\nContents\r\nPROJECT PROBLEM STATEMENT:\r\nPROJECT TASKS:\r\n1. Reading (20%)\r\n2. Site Selection (0%)\r\n3. Data Collection (30%)\r\n4. Data Analysis and Conclusion (30%)\r\n5. Presentation and Submission (20%)\r\n\r\n\r\n\r\nbody {\r\ntext-align: justify}\r\nPROJECT PROBLEM STATEMENT:\r\nThe ECIV 340L company has hired three surveying company to find the topography of three existing routes. The three companies: Yellow, Blue, and Red are assigned three routes as shown in the Site Selection section. The aim is to find elevations at 20 feet interval along the routes. In addition, the companies are required to use at least one turning point (TP) along the designated routes. The BM information is provided in the Site Selection section. The deliverables from each of these companies are:\r\nA final Presentation including:\r\ndetail methodology of data collection\r\nsummary of the topography of the routes\r\n\r\nA final report:\r\nonly providing a detailed engineering drawing of the profile along the route\r\n\r\nPROJECT TASKS:\r\n1. Reading (20%)\r\n2. Site Selection (0%)\r\nProject Site: YELLOWProject Site: BLUEProject Site: RED3. Data Collection (30%)\r\nTo collect data, schedule a time to reserve equipment via email: ahmedf@email.sc.edu Your email should include the following information:\r\nprovide a list of equipment you need\r\nindicate when are you going to pick up equipment\r\nindicate when are you planning to do the project work\r\nindicated when are you going to return the equipment\r\n\r\nPrepare a data form. The data form will be similar to lab session related to contouring\r\n4. Data Analysis and Conclusion (30%)\r\n5. Presentation and Submission (20%)\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-10-28T23:07:53-04:00"
+      "contents": "\r\n\r\nContents\r\nPROJECT PROBLEM STATEMENT\r\nPROJECT TASKS:\r\n1. Reading (20%)\r\n2. Site Selection (0%)\r\n3. Data Collection and Data Analysis (50%)\r\n5. Presentation and Submission (30%)\r\n\r\n\r\n\r\nbody {\r\ntext-align: justify}\r\nPROJECT PROBLEM STATEMENT\r\nThe ECIV 340L company has hired three surveying company to find the topography of three existing routes. The three companies: Yellow, Blue, and Red are assigned three routes as shown in the Site Selection section. The aim is to find elevations at 20 feet interval along the routes. In addition, the companies are required to use at least one turning point (TP) along the designated routes. The BM information is provided in the Site Selection section. The deliverables from each of these companies are:\r\nA final Presentation including:\r\ndetail methodology of data collection\r\nsummary of the topography of the routes\r\n\r\nA final report:\r\nonly providing a detailed engineering drawing of the profile along the route\r\n\r\nPROJECT TASKS:\r\n1. Reading (20%)\r\nProfile Leveling\r\n2. Site Selection (0%)\r\nProject Site: YELLOWProject Site: BLUEProject Site: REDProject Site: Benchmark-1 (BM-1)Project Site: Benchmark-2 (BM-2)3. Data Collection and Data Analysis (50%)\r\nTo collect data, schedule a time to reserve equipment via email: ahmedf@email.sc.edu Your email should include the following information:\r\nprovide a list of equipment you need\r\nindicate when are you going to pick up equipment\r\nindicate when are you planning to do the project work\r\nindicated when are you going to return the equipment\r\n\r\nPrepare a data form. The data form will be similar to lab session related to contouring\r\n5. Presentation and Submission (30%)\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-10-29T10:12:54-04:00"
     },
     {
       "path": "class.html",
@@ -20,7 +20,7 @@
       "title": "Topics",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-10-28T22:38:21-04:00"
+      "last_modified": "2021-10-29T10:28:43-04:00"
     },
     {
       "path": "COVID-19.html",
@@ -36,7 +36,7 @@
       "description": "ECIV 340L   \nDepartment of Civil and Environmental Engineering    \nUniversity of South Carolina\n",
       "author": [],
       "contents": "\r\n\r\nbody {\r\ntext-align: justify}\r\nCourse Description\r\nThis course aims to provide students with sound data collection and analysis techniques. This course is intended to complement the materials covered in Introduction to Transportation Engineering (ECIV 340), with emphasis on field experience.\r\nLearning Outcomes\r\nAt the conclusion of this course, students should be able to:\r\nCollect necessary traffic data to support traffic impact studies and transportation planning studies.\r\nMake field book entry and perform engineering calculations in proper format using self-measured data.\r\nWrite engineering reports.\r\nPrerequisites/Co-Requisites\r\nStudents must either have previously completed ECIV 340 or take ECIV 340 in the same semester as this course (ECIV 340L). Students are expected to be proficient with Microsoft Excel. The prerequisite for the class are ECIV 101 and STAT 509.\r\nUseful References\r\n1. “Introduction to Traffic Engineering: A Manual for data Collection and Analysis” 2nd edition by Thomas R. Currin. Cengage Learning, 2013.\r\n“Elementary Surveying: An Introduction to Geomatics” 14th edition by Charles D. Ghilani and Paul R. Wolf. Prentice Hall, 2015.\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-10-28T21:04:38-04:00"
+      "last_modified": "2021-10-29T10:28:53-04:00"
     },
     {
       "path": "Resources.html",

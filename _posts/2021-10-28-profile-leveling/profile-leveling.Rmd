@@ -26,13 +26,7 @@ text-align: justify}
 library(fontawesome)
 ```
 
-# PROJECT TASKS:  
 
-1. Reading (20%)
-2. Site Selection (0%)
-3. Data Collection (30%)
-4. Data Analysis and Conclusion (30%)
-5. Presentation and Submission (20%)
 
 
 **The following excerpt was copied verbatim from the book: Elementary Surverying: An Introduction to Geomatics (13th Ed.) by CHARLES D. GHILANI and PAUL R. WOLF **
