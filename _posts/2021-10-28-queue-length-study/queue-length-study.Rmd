@@ -1,0 +1,219 @@
+---
+title: "Queue Length Study"
+description: |
+
+author:
+  - name: ECIV 340L, CEE, UofSC
+    url: {}
+date: 10-22-2021
+output:
+  distill::distill_article:
+    toc: true
+    toc_float: true
+    toc_depth: 3
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+```{=html}
+<style>
+body {
+text-align: justify}
+</style>
+```
+```{r, echo=FALSE}
+library(fontawesome)
+```
+
+RELATED RESOUCES:
+
+-   `r fa(name = "fas fa-check-circle", fill = "green")` [**LECTURE
+    SLIDES**](https://emailsc-my.sharepoint.com/:p:/g/personal/ahmedf_email_sc_edu/EXtCFYQJ4GRLn9_p5n4k3ZQBAx9EthgT5kYJkFwPh292iA?e=imDJ8O)
+-   `r fa(name = "fas fa-check-circle", fill = "green")` [**DATA
+    FORM**](https://emailsc-my.sharepoint.com/:b:/g/personal/ahmedf_email_sc_edu/EYi5ZStYdmpEpMWqIRxID-8BnerVjANjysGS2jnfwCsGPg?e=UJR3qM)
+-   \``r fa(name = "fas fa-check-circle", fill = "green")` [**DEMO
+    CALCULATION**](https://emailsc-my.sharepoint.com/:x:/g/personal/ahmedf_email_sc_edu/EZfzwW7fHHZLr88lyNo9LMMBFulv7yWZVSmzUM6Yy5FVYg?e=rRhrW2)
+-   \``r fa(name = "fas fa-check-circle", fill = "green")` [**DEMO
+    CALCULATION-2**](https://emailsc-my.sharepoint.com/:x:/g/personal/ahmedf_email_sc_edu/Ecx_4x50QRlFreQfdcB5Z18BeYpvmti1e7Hzns9Q98NUoQ?e=9N0Dyi)
+
+# INTRODUCTION
+
+This session addresses a topic that applies to many situations both on
+and off roadway. Queue length determination and analysis identifies the
+characteristics of a waiting line of vehicles or people. It makes use of
+the Poisson distribution of arrivals along with a negative exponential
+distribution of service times. The procedure is useful in customer
+service analyses of drive-in banking and fast-food restaurants; it is
+also used in predicting toll-booth activity and parking garage
+utilization. Information such as the average length of waiting time,
+length of a queue, and length of a storage lane can be easily computed.
+The procedure is limited to single-channel or single-queue analysis,
+since it requires little data acquisition to produce meaningful results.
+Procedures exist for multi-channel analysis of two or more drive-in
+windows, toll booths, or similar service bays that require minimal data
+acquisition to render useful results.
+
+# EQUIPMENT
+
+The equipment list for data collection procedure is a stopwatch (cell
+phone) and note-taking materials.
+
+# DATA COLLECTION
+
+1.  **Choose a location to study and a time to collect data**\
+    The student group should choose a **fast-food facility or drive-in
+    bank that has only one operating window**. Fast-food restaurants
+    that have two successive windows---one used to take order and the
+    next to receive food---are acceptable. As an alternative, the
+    student group may wish to choose a toll booth. If so, the toll booth
+    should be a single booth with only one queue. It is important that
+    the traffic entering and exiting the service line can be easily
+    counted. This observation should take place during a peak period
+    when the service rate (the number of vehicles serviced per hour) is
+    at, or near, its highest. The service rate to be determined should
+    be the maximum service rate the facility can render---when the
+    arrival rate is at its highest and workers are the most motivated.
+    For some facilities, this may be a significant factor in obtaining
+    data needed to determine the service rate. For others, the service
+    time may be unaffected by the arrival rate and length of queue. The
+    student group should be aware of the possible effect on the data
+    quality.
+
+2.  **Collect data and record values**\
+    Two sets of data will be obtained. One should address the service
+    rate of the facility and the other the variation in the length of
+    the queue. Service time is the time it takes one vehicle from the
+    queue to be serviced by the facility and depart. For a bank, the
+    service time starts when the vehicle stops at the speaker or window
+    and ends when the vehicle starts to move. Using the data collection
+    form attached to this handout, **50 service times will be
+    collected**. Collection of the **queue length variations over the
+    course of 60 minutes** is obtained by recording the *queue length at
+    the end of each minute for one hour*. Consecutive readings are
+    required over this period, since the variability in length of the
+    queue is to be compared to theoretical computed values. The student
+    group starts timing and at the end of each minute observes and
+    records the length of the queue, excluding any vehicle being
+    serviced. Simultaneously, the number of vehicles arriving and
+    entering the queue is recorded at the end of each 5-minute arrival.
+
+3.  **Check your work before leaving the field**\
+    Before leaving the field, the data collection form should be checked
+    to see that all field data have been collected correctly. Any
+    unusual observations should be listed as comments.
+
+# DATA ANALYSIS
+
+1.  **Summarize field data on form provided\
+    **Since the values were computed in the field, the computations are
+    rechecked. Next, the queue-length data is reduced, using the data
+    summary form. The procedure begins with identifying the number of
+    queues that had 0 vehicle, 1 vehicle, 2 vehicles, and so on, and
+    entering these values in Column 2. The sum of Column 2 should be 60,
+    the number of queues observed. Column 3 is the frequency of that
+    queue length and is computed by dividing Column 2 by the total, 60.
+    Column 4, cumulative frequency, is computed by adding all
+    frequencies, including the time interval.
+
+2.  **Calculate standard relationships\
+    **Using the collected data, a number of standard relationships can
+    be calculated. These can be used to identify and assess the
+    performance characteristics of the facility. The formulae and an
+    example calculation of each are shown below. These use an assumed
+    service rate of 140 vehicles per hour and an assumed arrival rate of
+    90 vehicles per hour.
+
+    For each of the calculations, q equals the arrival rate in vehicles
+    per hour, and Q equals the service rate in vehicles per hour.
+
+    The probability of exactly n units being in the system, where n
+    equals the total number of vehicles---including the unit being
+    served is:\
+    \
+    $Pr(n)=(\frac{q}{Q})^n(1-\frac{q}{Q})$\
+    \
+    Therefore, the probability of exactly 2 vehicles in the system is
+    $0.148$. The expected, or average number of vehicles in the system,
+    $E(n)$ is:\
+    \
+    $E(n)=\frac{q}{(Q-q)}$\
+    \
+    Therefore, the average number of vehicles in the system for the
+    example is $1.8$.
+
+    The average queue length, E(m),is:
+
+    $E(m)= \frac{q^2}{Q(Q-q)}$
+
+    The mean queue length is 1.16 vehicles.
+
+    The average waiting time in the queue after arrival, E(w), is:
+
+    $E(w)=\frac{q}{Q(Q-q)}$
+
+    This calculates to be $0.013$ hours or $46.3$ seconds.
+
+    The average time a vehicle spends in the system including being
+    served and waiting to be served, E(v), is:
+
+    $E(v)=\frac{1}{(Q-q)}$
+
+    This calculates to be $0.02$ hours or $72$ seconds.
+
+    The probability of a vehicle spending time, t hours, or less in the
+    system is:
+
+    $Pr(v \le t)= 1- e^{-(1-\frac{q}{Q})qt}$
+
+    If it is desirable to know how often the total time a vehicle will
+    be in the system less than $50$ seconds, then the equation yields
+    $0.36$.
+
+    The probability of a vehicle spending time, t, or less in the queue
+    is:
+
+    $Pr(w \le t) = 1-\frac{q}{Q}e^{-(1-\frac{q}{Q})qt}$
+
+    Likewise, if it is desirable to know how often the waiting time will
+    be less than or equal to $50$ seconds, then the equation yields
+    $0.589$.
+
+    The probability of more than N vehicles in the queue is:
+
+    $Pr(n \gt N)= (\frac{q}{Q})^{N+1}$
+
+    This equation can be used to find the length of the storage lane for
+    the queue. If it is desirable to have the storage lane long enough
+    to accommodate 90% of the queues that develop, then Pr⁡(n>N)=0.10
+    and the equation can be solved for N. For the example rates, it is
+    computed that more than 4 vehicles will be in the queue 10.9% of the
+    time, and more than 5 vehicles will be in the queue 7% of the time.
+    Based on this, a storage lane long enough to accommodate 5 vehicles
+    should be sufficient over 90% of the time.
+
+**Class demo**
+
+3.  **Summarize and interpret results**\
+    Having computed all of the relationships, the student group can now
+    examine the results and draw conclusions about the expected
+    operation of the facility. Among additional questions that may be
+    addressed are:
+
+    Does the observed average queue length compare favorably to the
+    computed value? If not, is there an indication why? If it is
+    desirable for the facility to have sufficient storage length for 95%
+    of the expected queues to be accommodated, how many vehicles must be
+    accommodated? Do the computed values indicate the need for
+    improvements in the operation of the facility, such as the addition
+    of more windows or channels, or changes in the operation to increase
+    the rate of service? Assuming an arrival rate equal to 90% of the
+    service rate, how much of an increase in service time can occur at
+    the facility before the queue length gets too long for the site?
+
+These and other questions can provide useful input to the decision maker
+responsible for the operation of a business facility. Given the small
+amount of data collection needed to render significant results, the
+study of queue length is a cost-effective management tool. The procedure
+presented here for single-channel analysis is similar to that for
+multi-channel applications.
