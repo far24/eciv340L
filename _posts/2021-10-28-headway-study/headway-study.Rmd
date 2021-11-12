@@ -29,13 +29,11 @@ library(fontawesome)
 RELATED RESOUCES:
 
 -   `r fa(name = "fas fa-check-circle", fill = "green")` [**LECTURE
-    SLIDES**](https://emailsc-my.sharepoint.com/:p:/g/personal/ahmedf_email_sc_edu/EXtCFYQJ4GRLn9_p5n4k3ZQBAx9EthgT5kYJkFwPh292iA?e=imDJ8O)
+    SLIDES**](https://emailsc-my.sharepoint.com/:p:/g/personal/ahmedf_email_sc_edu/EYz3mDZQC2xEh6iMzPOzeygBKhzjqWircsqr6X2LMldf3g?e=r7Worb)
 -   `r fa(name = "fas fa-check-circle", fill = "green")` [**DATA
-    FORM**](https://emailsc-my.sharepoint.com/:b:/g/personal/ahmedf_email_sc_edu/EYi5ZStYdmpEpMWqIRxID-8BnerVjANjysGS2jnfwCsGPg?e=UJR3qM)
+    FORM**](https://emailsc-my.sharepoint.com/:b:/g/personal/ahmedf_email_sc_edu/ESVctAqXPCtEjvgxwN4WBwMBz5E_taqLAhSU6LEfcJ-DtQ?e=TmtTMS)
 -   \``r fa(name = "fas fa-check-circle", fill = "green")` [**DEMO
-    CALCULATION**](https://emailsc-my.sharepoint.com/:x:/g/personal/ahmedf_email_sc_edu/EZfzwW7fHHZLr88lyNo9LMMBFulv7yWZVSmzUM6Yy5FVYg?e=rRhrW2)
--   \``r fa(name = "fas fa-check-circle", fill = "green")` [**DEMO
-    CALCULATION-2**](https://emailsc-my.sharepoint.com/:x:/g/personal/ahmedf_email_sc_edu/Ecx_4x50QRlFreQfdcB5Z18BeYpvmti1e7Hzns9Q98NUoQ?e=9N0Dyi)
+    CALCULATION**](https://emailsc-my.sharepoint.com/:x:/g/personal/ahmedf_email_sc_edu/ESKuAurutIpPhFFc1sgmVQUBG0zO3ZJDdupW8QesuZAxwg?e=tznv89)
 
 # INTRODUCTION
 
