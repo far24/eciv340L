@@ -22,6 +22,8 @@ body {
 text-align: justify}
 </style>
 ```
+
+
 ```{r, echo=FALSE}
 library(fontawesome)
 ```
@@ -34,6 +36,7 @@ RELATED RESOUCES:
     FORM**](https://emailsc-my.sharepoint.com/:b:/g/personal/ahmedf_email_sc_edu/EbwxL_SWF_9Krc6RAt5OWxkBHupXho7D9cvOAo3apkECxw?e=VUPOTc)
 -   \``r fa(name = "fas fa-check-circle", fill = "green")` [**DEMO
     CALCULATION**](https://emailsc-my.sharepoint.com/:x:/g/personal/ahmedf_email_sc_edu/EbKZbvVATHlNioR1xuP09XUBOf9LDStB-cCOOK_KZTrLVQ?e=r8QVkb)
+
 
 # INTRODUCTION
 
