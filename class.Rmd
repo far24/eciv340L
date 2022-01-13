@@ -4,9 +4,9 @@ title: "Class Information"
 
 ## <font color="993300">Class</font>  
 
-**Class Day and Time:** 	Friday | 12:00 PM - 3:00 PM  
-**Class Location:**	Swearingen Engr. Ctr.  
-**Class Room:** 2A15  
+**Class Day and Time:** 	Friday | 08:40 AM - 11:40 AM  
+**Class Location:**	300 Main St 
+**Class Room:** B123  
 **Class Webpage:**	blackboard.sc.edu | https://eciv340l.netlify.app/    
 
 ## <font color="993300">Instructor</font>   

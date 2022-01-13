@@ -5,16 +5,16 @@ description: |
 output_dir: "_site"
 navbar:
   right:
-    - text: "Home"
+    - text: "ECIV 340L"
       href: index.html
-    - text: "Fall 2021 Class"
+    - text: "Spring 2022 Class"
       href: class.html
     - text: "Syllabus & Activity"
       href: syllabus.html
     - text: "Course Materials"
       href: course-material.html
     - text: "Project"
-      href: 2021_fall_project.html
+      href: 2022_spring_project.html
 
 
 output: distill::distill_article

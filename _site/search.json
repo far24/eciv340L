@@ -9,18 +9,26 @@
       "last_modified": "2021-10-29T10:12:54-04:00"
     },
     {
+      "path": "2022_spring_project.html",
+      "title": "ECIV 340L Project",
+      "description": "Spring 2022\n",
+      "author": [],
+      "contents": "\r\n\r\nContents\r\nNot Assigned Yet!!\r\n\r\n\r\nbody {\r\ntext-align: justify}\r\nNot Assigned Yet!!\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-01-13T18:20:41-05:00"
+    },
+    {
       "path": "class.html",
       "title": "Class Information",
       "author": [],
-      "contents": "\r\nClass\r\nClass Day and Time: Friday | 12:00 PM - 3:00 PMClass Location: Swearingen Engr. Ctr.Class Room: 2A15Class Webpage: blackboard.sc.edu | https://eciv340l.netlify.app/\r\nInstructor\r\nFahim Ahmed, M.S.\r\nOffice Location: 300 Main ST.Office Room: C110Email: ahmedf@email.sc.edu\r\nOffice Hours\r\nOpen-door policy\r\nSchedule in-person or virtual appointments by email.\r\nCommunication\r\nExpect response to your email(s) within 24 hours.\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-09-24T11:25:55-04:00"
+      "contents": "\r\nClass\r\nClass Day and Time: Friday | 08:40 AM - 11:40 AMClass Location: 300 Main St Class Room: B123Class Webpage: blackboard.sc.edu | https://eciv340l.netlify.app/\r\nInstructor\r\nFahim Ahmed, M.S.\r\nOffice Location: 300 Main ST.Office Room: C110Email: ahmedf@email.sc.edu\r\nOffice Hours\r\nOpen-door policy\r\nSchedule in-person or virtual appointments by email.\r\nCommunication\r\nExpect response to your email(s) within 24 hours.\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-01-13T18:13:27-05:00"
     },
     {
       "path": "course-material.html",
       "title": "Topics",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-11-12T10:15:11-05:00"
+      "last_modified": "2021-11-12T10:29:34-05:00"
     },
     {
       "path": "COVID-19.html",
@@ -36,7 +44,7 @@
       "description": "ECIV 340L   \nDepartment of Civil and Environmental Engineering    \nUniversity of South Carolina\n",
       "author": [],
       "contents": "\r\n\r\nbody {\r\ntext-align: justify}\r\nCourse Description\r\nThis course aims to provide students with sound data collection and analysis techniques. This course is intended to complement the materials covered in Introduction to Transportation Engineering (ECIV 340), with emphasis on field experience.\r\nLearning Outcomes\r\nAt the conclusion of this course, students should be able to:\r\nCollect necessary traffic data to support traffic impact studies and transportation planning studies.\r\nMake field book entry and perform engineering calculations in proper format using self-measured data.\r\nWrite engineering reports.\r\nPrerequisites/Co-Requisites\r\nStudents must either have previously completed ECIV 340 or take ECIV 340 in the same semester as this course (ECIV 340L). Students are expected to be proficient with Microsoft Excel. The prerequisite for the class are ECIV 101 and STAT 509.\r\nUseful References\r\n1. “Introduction to Traffic Engineering: A Manual for data Collection and Analysis” 2nd edition by Thomas R. Currin. Cengage Learning, 2013.\r\n“Elementary Surveying: An Introduction to Geomatics” 14th edition by Charles D. Ghilani and Paul R. Wolf. Prentice Hall, 2015.\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-11-11T19:29:56-05:00"
+      "last_modified": "2022-01-13T18:22:34-05:00"
     },
     {
       "path": "Resources.html",
@@ -48,10 +56,10 @@
     {
       "path": "syllabus.html",
       "title": "Syllabus",
-      "description": "Fall 2021",
+      "description": "Spring 2022",
       "author": [],
-      "contents": "\r\n\r\n\r\n\r\nThe detailed syllabus of Fall 2021 for the ECIV 340L course can be found in Blackboard.\r\nActivity Tracker\r\nLAB REPORT (LR)\r\nLR Submission Deadline\r\nLR Assigned\r\nLR Score Updated\r\n#01 Dist. and Elev.\r\nSept 03 by 11.59 PM\r\n\r\n\r\n#02 Contouring (GROUP)\r\nSept 10 by 11.59 PM\r\n\r\n\r\n#02 Contouring (Ind.)\r\nSept 10 by 11.59 PM\r\n\r\n\r\n#03 Total Station\r\nSept 17 by 11.59 PM\r\n\r\n\r\n#04 Traverse Survey\r\nSept 24 by 11.59 PM\r\n\r\n\r\n#05 Highway Alignment\r\nOCT 01 by 11.59 PM\r\n\r\n\r\n#06 Surface Area & Vol.\r\nOCT 08 by 11.59 PM\r\n\r\n\r\n#07\r\n\r\n\r\n\r\n#08\r\n\r\n\r\n\r\n#09\r\n\r\n\r\n\r\n#10\r\n\r\n\r\n\r\n#11\r\n\r\n\r\n\r\n#12\r\n\r\n\r\n\r\n#13\r\n\r\n\r\n\r\nTentative Class Schedule\r\nECIV 340L Fall 2021 SchduleGrading Timeline\r\nExpect graded lab reports within 1 week of submission.\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-09-30T17:04:06-04:00"
+      "contents": "\r\n\r\n\r\n\r\nThe detailed syllabus is in Blackboard.\r\nTentative Class Schedule\r\nWeek\r\nLab Session\r\nDate\r\nTopic(s)\r\nReport due\r\nLR Due Date\r\nLR Graded\r\n1\r\n\r\nJan 14\r\nClass Introduction and Safety Seminar\r\n\r\n\r\n\r\n2\r\n1\r\nJan 21\r\nDistance Measurement and Leveling\r\n\r\n\r\n\r\n3\r\n2\r\nJan 28\r\nContouring And Total Station Introduction †\r\n1\r\n\r\n\r\n4\r\n3\r\nFeb 4\r\nTraversing (Open And Closed) †\r\n2\r\n\r\n\r\n5\r\n4\r\nFeb 11\r\nSurface Area and Volume Calculation †\r\n3\r\n\r\n\r\n6\r\n5\r\nFeb 18\r\nHorizontal And Vertical Alignment (Field) †\r\n4\r\n\r\n\r\n7\r\n6\r\nFeb 25\r\nSpot Speed Study (Determining Roadway Speeds)\r\n5\r\n\r\n\r\n\r\nMar 6 - Mar 13\r\n\r\nSpring Break\r\n\r\n\r\n\r\n8\r\n7\r\nMar 4\r\nTurning Movement Counts (Assessing A Controlled Intersection)\r\n6\r\n\r\n\r\n9\r\n8\r\nMar 11\r\nHorizontal And Vertical Alignment (AutoCAD Civil 3D) *\r\n7\r\n\r\n\r\n10\r\n9\r\nMar 18\r\nVehicle Arrival Study (Assessing The Signalized Intersection II)\r\n8\r\n\r\n\r\n11\r\n10\r\nMar 25\r\nHeadway Study (Capacity And the Unsignalized Intersection)\r\n9\r\n\r\n\r\n12\r\n11\r\nApr 1\r\nQueue Length (Assessing The Signalized Intersection I)\r\n10\r\n\r\n\r\n13\r\n12\r\nApr 8\r\nNetwork And Route Analysis\r\n11\r\n\r\n\r\n14\r\n13\r\nApr 15\r\nTravel Demand Modeling (TRANSCAD)*\r\n12\r\n\r\n\r\n15\r\n\r\nApr 22\r\nProject Presentation and Report Submission\r\n13\r\n\r\n\r\n\r\n\r\nApr 25\r\nLast Day of Class\r\n\r\n\r\n\r\nGrading Timeline\r\nExpect graded lab reports within 1 week of submission.\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-01-13T18:09:46-05:00"
     }
   ],
   "collections": ["posts/posts.json"]

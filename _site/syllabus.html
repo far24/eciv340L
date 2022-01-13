@@ -56,7 +56,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { color: #20794d; } /* Attribute */
+code span.at { } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
 code span.cf { color: #007ba5; } /* ControlFlow */
@@ -77,7 +77,7 @@ code span.kw { color: #007ba5; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
 code span.ot { color: #007ba5; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
-code span.sc { color: #20794d; } /* SpecialChar */
+code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
 code span.st { color: #20794d; } /* String */
 code span.va { color: #111111; } /* Variable */
@@ -85,30 +85,31 @@ code span.vs { color: #20794d; } /* VerbatimString */
 code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
+
   <!--radix_placeholder_meta_tags-->
   <title>ECIV 340L: Transportation Engineering Lab: Syllabus</title>
 
-  <meta property="description" itemprop="description" content="Fall 2021"/>
+  <meta property="description" itemprop="description" content="Spring 2022"/>
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
   <meta property="og:title" content="ECIV 340L: Transportation Engineering Lab: Syllabus"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Fall 2021"/>
+  <meta property="og:description" content="Spring 2022"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="ECIV 340L: Transportation Engineering Lab"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
   <meta property="twitter:title" content="ECIV 340L: Transportation Engineering Lab: Syllabus"/>
-  <meta property="twitter:description" content="Fall 2021"/>
+  <meta property="twitter:description" content="Spring 2022"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["Syllabus"]},{"type":"character","attributes":{},"value":["Fall 2021"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["Syllabus"]},{"type":"character","attributes":{},"value":["Spring 2022"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -455,7 +456,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   </style>
 
-  <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+  <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
   <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
   <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
   <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
@@ -1862,7 +1863,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+        var refs = $(this).attr('data-cites').split(" ");
+        var refHtml = refs.map(function(ref) {
+          return "<p>" + $('#ref-' + ref).html() + "</p>";
+        }).join("\n");
         window.tippy(this, {
           allowHTML: true,
           content: refHtml,
@@ -2033,7 +2037,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2053,7 +2057,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Syllabus","description":"Fall 2021","authors":[]}
+{"title":"Syllabus","description":"Spring 2022","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2066,7 +2070,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </div>
 <div class="nav-right">
 <a href="index.html">Home</a>
-<a href="class.html">Fall 2021 Class</a>
+<a href="class.html">Spring 2022 Class</a>
 <a href="syllabus.html">Syllabus &amp; Activity</a>
 <a href="course-material.html">Course Materials</a>
 <a href="2021_fall_project.html">Project</a>
@@ -2082,7 +2086,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <h1>Syllabus</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Fall 2021</p></p>
+<p><p>Spring 2022</p></p>
 </div>
 
 
@@ -2090,108 +2094,185 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <div class="layout-chunk" data-layout="l-body">
 
 </div>
-<p>The detailed syllabus of Fall 2021 for the ECIV 340L course can be found in Blackboard.</p>
-<h2 id="activity-tracker">Activity Tracker</h2>
-<table>
+<p>The detailed syllabus is in Blackboard.</p>
+<h2 id="tentative-class-schedule"><font color="993300">Tentative Class Schedule</font></h2>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 7%" />
+<col style="width: 13%" />
+<col style="width: 8%" />
+<col style="width: 46%" />
+<col style="width: 10%" />
+<col style="width: 7%" />
+<col style="width: 6%" />
+</colgroup>
 <thead>
 <tr class="header">
-<th>LAB REPORT (LR)</th>
-<th style="text-align: center;">LR Submission Deadline</th>
-<th style="text-align: center;">LR Assigned</th>
-<th style="text-align: center;">LR Score Updated</th>
+<th>Week</th>
+<th>Lab Session</th>
+<th>Date</th>
+<th>Topic(s)</th>
+<th>Report due</th>
+<th>LR Due Date</th>
+<th>LR Graded</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>#01 Dist. and Elev.</td>
-<td style="text-align: center;">Sept 03 by 11.59 PM</td>
-<td style="text-align: center;"><svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:green;overflow:visible;position:relative;"><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"/></svg></td>
-<td style="text-align: center;"><svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:green;overflow:visible;position:relative;"><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"/></svg></td>
+<td>1</td>
+<td></td>
+<td>Jan 14</td>
+<td>Class Introduction and Safety Seminar</td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td>#02 Contouring (GROUP)</td>
-<td style="text-align: center;">Sept 10 by 11.59 PM</td>
-<td style="text-align: center;"><svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:green;overflow:visible;position:relative;"><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"/></svg></td>
-<td style="text-align: center;"><svg aria-hidden="true" role="img" viewBox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:orange;overflow:visible;position:relative;"><path d="M360 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24 0 90.965 51.016 167.734 120.842 192C75.016 280.266 24 357.035 24 448c-13.255 0-24 10.745-24 24v16c0 13.255 10.745 24 24 24h336c13.255 0 24-10.745 24-24v-16c0-13.255-10.745-24-24-24 0-90.965-51.016-167.734-120.842-192C308.984 231.734 360 154.965 360 64c13.255 0 24-10.745 24-24V24c0-13.255-10.745-24-24-24zm-75.078 384H99.08c17.059-46.797 52.096-80 92.92-80 40.821 0 75.862 33.196 92.922 80zm.019-256H99.078C91.988 108.548 88 86.748 88 64h208c0 22.805-3.987 44.587-11.059 64z"/></svg></td>
+<td>2</td>
+<td>1</td>
+<td>Jan 21</td>
+<td>Distance Measurement and Leveling</td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td>#02 Contouring (Ind.)</td>
-<td style="text-align: center;">Sept 10 by 11.59 PM</td>
-<td style="text-align: center;"><svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:green;overflow:visible;position:relative;"><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"/></svg></td>
-<td style="text-align: center;"><svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:green;overflow:visible;position:relative;"><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"/></svg></td>
+<td>3</td>
+<td>2</td>
+<td>Jan 28</td>
+<td>Contouring And Total Station Introduction †</td>
+<td>1</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td>#03 Total Station</td>
-<td style="text-align: center;">Sept 17 by 11.59 PM</td>
-<td style="text-align: center;"><svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:green;overflow:visible;position:relative;"><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"/></svg></td>
-<td style="text-align: center;"><svg aria-hidden="true" role="img" viewBox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:orange;overflow:visible;position:relative;"><path d="M360 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24 0 90.965 51.016 167.734 120.842 192C75.016 280.266 24 357.035 24 448c-13.255 0-24 10.745-24 24v16c0 13.255 10.745 24 24 24h336c13.255 0 24-10.745 24-24v-16c0-13.255-10.745-24-24-24 0-90.965-51.016-167.734-120.842-192C308.984 231.734 360 154.965 360 64c13.255 0 24-10.745 24-24V24c0-13.255-10.745-24-24-24zm-75.078 384H99.08c17.059-46.797 52.096-80 92.92-80 40.821 0 75.862 33.196 92.922 80zm.019-256H99.078C91.988 108.548 88 86.748 88 64h208c0 22.805-3.987 44.587-11.059 64z"/></svg></td>
+<td>4</td>
+<td>3</td>
+<td>Feb 4</td>
+<td>Traversing (Open And Closed) †</td>
+<td>2</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td>#04 Traverse Survey</td>
-<td style="text-align: center;">Sept 24 by 11.59 PM</td>
-<td style="text-align: center;"><svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:green;overflow:visible;position:relative;"><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"/></svg></td>
-<td style="text-align: center;"><svg aria-hidden="true" role="img" viewBox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:orange;overflow:visible;position:relative;"><path d="M360 0H24C10.745 0 0 10.745 0 24v16c0 13.255 10.745 24 24 24 0 90.965 51.016 167.734 120.842 192C75.016 280.266 24 357.035 24 448c-13.255 0-24 10.745-24 24v16c0 13.255 10.745 24 24 24h336c13.255 0 24-10.745 24-24v-16c0-13.255-10.745-24-24-24 0-90.965-51.016-167.734-120.842-192C308.984 231.734 360 154.965 360 64c13.255 0 24-10.745 24-24V24c0-13.255-10.745-24-24-24zm-75.078 384H99.08c17.059-46.797 52.096-80 92.92-80 40.821 0 75.862 33.196 92.922 80zm.019-256H99.078C91.988 108.548 88 86.748 88 64h208c0 22.805-3.987 44.587-11.059 64z"/></svg></td>
+<td>5</td>
+<td>4</td>
+<td>Feb 11</td>
+<td>Surface Area and Volume Calculation †</td>
+<td>3</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td>#05 Highway Alignment</td>
-<td style="text-align: center;">OCT 01 by 11.59 PM</td>
-<td style="text-align: center;"><svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:green;overflow:visible;position:relative;"><path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"/></svg></td>
-<td style="text-align: center;"></td>
+<td>6</td>
+<td>5</td>
+<td>Feb 18</td>
+<td>Horizontal And Vertical Alignment (Field) †</td>
+<td>4</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td>#06 Surface Area &amp; Vol.</td>
-<td style="text-align: center;">OCT 08 by 11.59 PM</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td>7</td>
+<td>6</td>
+<td>Feb 25</td>
+<td>Spot Speed Study (Determining Roadway Speeds)</td>
+<td>5</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td>#07</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td></td>
+<td>Mar 6 - Mar 13</td>
+<td></td>
+<td>Spring Break</td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td>#08</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td>8</td>
+<td>7</td>
+<td>Mar 4</td>
+<td>Turning Movement Counts (Assessing A Controlled Intersection)</td>
+<td>6</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td>#09</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td>9</td>
+<td>8</td>
+<td>Mar 11</td>
+<td>Horizontal And Vertical Alignment (AutoCAD Civil 3D) *</td>
+<td>7</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td>#10</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td>10</td>
+<td>9</td>
+<td>Mar 18</td>
+<td>Vehicle Arrival Study (Assessing The Signalized Intersection II)</td>
+<td>8</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td>#11</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td>11</td>
+<td>10</td>
+<td>Mar 25</td>
+<td>Headway Study (Capacity And the Unsignalized Intersection)</td>
+<td>9</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td>#12</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td>12</td>
+<td>11</td>
+<td>Apr 1</td>
+<td>Queue Length (Assessing The Signalized Intersection I)</td>
+<td>10</td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
-<td>#13</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td>13</td>
+<td>12</td>
+<td>Apr 8</td>
+<td>Network And Route Analysis</td>
+<td>11</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>14</td>
+<td>13</td>
+<td>Apr 15</td>
+<td>Travel Demand Modeling (TRANSCAD)*</td>
+<td>12</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>15</td>
+<td></td>
+<td>Apr 22</td>
+<td>Project Presentation and Report Submission</td>
+<td>13</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td>Apr 25</td>
+<td>Last Day of Class</td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
-<h2 id="tentative-class-schedule"><font color="993300">Tentative Class Schedule</font></h2>
-<figure>
-<img src="schedule.PNG" alt="ECIV 340L Fall 2021 Schdule" /><figcaption aria-hidden="true">ECIV 340L Fall 2021 Schdule</figcaption>
-</figure>
 <h2 id="grading-timeline"><font color="993300">Grading Timeline</font></h2>
 <ul>
 <li>Expect graded lab reports within 1 week of submission.</li>
