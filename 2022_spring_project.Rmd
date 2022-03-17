@@ -18,7 +18,61 @@ body {
 text-align: justify}
 </style>
 ```
+## ECIV 340L Project (Spring 2022)
 
+We have been retained by a civil engineering firm, Columbia, LLC, to
+conduct a traffic analysis of individual intersections in proximity of
+department of CEE at the University of South Carolina (UofSC). The map
+shows the intersections of interest.
 
+![Project Site](2022_SP_proj_site.png)
 
-## <font color="993300">Not Assigned Yet!!</font>
+Our subcontract stipulates that we will provide technical memoranda. The
+tech memo should provide the following information.
+
+1.  **Reconnaissance:** CAD‐drawn (AutoCAD or MicroStation or other
+    suitable soft) plan view of the assigned intersection showing:
+
+    a.  Curb‐to‐curb dimensions of all approaches (units should be in
+        feet and inches.
+
+    b.  Lane and channelization markings.
+
+    c.  Traffic control at the intersection
+
+2.  **Data Collection:**
+
+    a.  Traffic volume counts during should be done in peak traffic
+        periods.
+        -   *Group BLUE* : Collect data for Morning Peak (7.30-9.30AM)
+
+        -   *Group RED* : Collect data for Evening peak (4.30-6.30AM)
+    b.  Volumes showing numbers of cars, trucks, and buses making
+        through, left, and right turn movements Volumes should be
+        recorded for each 15‐minute interval during each hour.
+    c.  Traffic counts should be collected on a "typical" day; thus,
+        they should be done on Tuesdays, Wednesdays, and Thursdays.
+        Avoid doing traffic counts on Mondays and Fridays. A traffic
+        count template is provided in the TMC lab session.
+
+3.  **Capacity analyses**:
+
+    a.  Present level of service (LOS) for existing traffic condition
+        and traffic control using HCS 2010 and Synchro. Compare results
+        (e.g., delay) from both software.
+
+    b.  Analyze the LOS in Synchro if traffic control at the
+        intersection is (i) TWSC and (ii) Roundabout
+
+    c.  Discuss the following:
+
+        1.  What is the best traffic control for the intersection and
+            why?
+
+        2.  Describe any bicycle or pedestrian issues that you believe
+            are problematic.
+
+The tech memo should be brief, but must contain sufficient text to
+clearly explain and convey to the reader the information it contains.
+
+Tech memo is due from each team on **TBA**.

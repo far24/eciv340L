@@ -2,34 +2,25 @@
 title: "Class Information"
 ---
 
-## <font color="993300">Class</font>  
+## <font color="993300">Class</font>
 
-**Class Day and Time:** 	Friday | 08:40 AM - 11:40 AM  
-**Class Location:**	300 Main St 
-**Class Room:** B123  
-**Class Webpage:**	blackboard.sc.edu | https://eciv340l.netlify.app/    
+**Class Day and Time:** Friday \| 08:40 AM - 11:40 AM\
+**Class Location:** 300 Main St **Class Room:** B123\
+**Class Webpage:** blackboard.sc.edu \| <https://eciv340l.netlify.app/>
 
-## <font color="993300">Instructor</font>   
+## <font color="993300">Instructor</font>
 
-<font size= "5.5">[**Fahim Ahmed, M.S.**](https://fahimahmed.netlify.app/)</font>  
+<font size= "5.5">[**Fahim Ahmed, M.S.**](https://fahimahmed.netlify.app/)</font>
 
-**Office Location:** 300 Main ST.   
-**Office Room:** C110    
-**Email:** ahmedf@email.sc.edu  
+**Office Location:** 300 Main ST.\
+**Office Room:** C110\
+**Email:** [ahmedf\@email.sc.edu](mailto:ahmedf@email.sc.edu){.email}
 
-## <font color="993300">Office Hours</font> 
+## <font color="993300">Office Hours</font>
 
-+ Open-door policy  
-+ Schedule in-person or virtual appointments by email.  
+-   Open-door policy\
+-   Schedule in-person or virtual appointments by email.
 
 ## <font color="993300">Communication</font>
 
-+ Expect response to your email(s) within 24 hours.  
-
-
-
-
-
-
-
-
+-   Expect response to your email(s) within 24 hours.
