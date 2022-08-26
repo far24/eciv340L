@@ -7,7 +7,7 @@ navbar:
   right:
     - text: "ECIV 340L"
       href: index.html
-    - text: "Spring 2022 Class"
+    - text: "FALL 2022 Class"
       href: class.html
     - text: "Syllabus & Activity"
       href: syllabus.html

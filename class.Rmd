@@ -4,13 +4,13 @@ title: "Class Information"
 
 ## <font color="993300">Class</font>
 
-**Class Day and Time:** Friday \| 08:40 AM - 11:40 AM\
+**Class Day and Time:** Friday \| 12:00 - 03:00 PM\
 **Class Location:** 300 Main St **Class Room:** B123\
 **Class Webpage:** blackboard.sc.edu \| <https://eciv340l.netlify.app/>
 
 ## <font color="993300">Instructor</font>
 
-<font size= "5.5">[**Fahim Ahmed, M.S.**](https://fahimahmed.netlify.app/)</font>
+<font size= "5.5">[**Fahim Ahmed, M.S., E.I.T.**](https://fahimahmed.netlify.app/)</font>
 
 **Office Location:** 300 Main ST.\
 **Office Room:** C110\

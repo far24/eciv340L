@@ -5,7 +5,7 @@ description: |
 author:
   - name: ECIV 340L, CEE, UofSC
     url: {}
-date: 10-15-2021
+date: 08-26-2022
 output:
   distill::distill_article:
     toc: true
@@ -28,10 +28,10 @@ library(fontawesome)
 
 RELATED RESOUCES:
 
--   `r fa(name = "fas fa-check-circle", fill = "green")` [**LECTURE
+-   [**LECTURE
     SLIDES**](https://emailsc-my.sharepoint.com/:p:/g/personal/ahmedf_email_sc_edu/EdqX1wH4zKlDqxe3pyU48s0BjoKGbdCgnxrdUPvQwFf4PQ?e=MToH4V)
--   `r fa(name = "fas fa-check-circle", fill = "green")` [**DATA FORM**](https://emailsc-my.sharepoint.com/:b:/g/personal/ahmedf_email_sc_edu/EcwO2njVTIpCkY6E6fbBPN8BgKzCU3B7RxT8DFIYE5tNQQ?e=VQ2b7u)
--   \``r fa(name = "fas fa-check-circle", fill = "green")` [**DEMO
+-   [**DATA FORM**](https://emailsc-my.sharepoint.com/:b:/g/personal/ahmedf_email_sc_edu/EcwO2njVTIpCkY6E6fbBPN8BgKzCU3B7RxT8DFIYE5tNQQ?e=VQ2b7u)
+-   [**DEMO
     CALCULATION**](https://emailsc-my.sharepoint.com/:x:/g/personal/ahmedf_email_sc_edu/EWFjh7Ru79pHngLA1SL7Y3oBX3k8yvUXuMlj9kZGWG4Isg?e=esm44P)
 
 

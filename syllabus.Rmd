@@ -1,36 +1,22 @@
 ---
 title: "Syllabus"
 description: |
-  Spring 2022
+  Fall 2022
 ---
 
 ```{r, echo=FALSE}
 library(fontawesome)
+
 ```
 
 The detailed syllabus is in Blackboard. 
 
-## <font color="993300">Tentative Class Schedule</font>
+## <font color="993300">Tentative Class Schedule and Updates</font>
 
-|Week    |Lab Session|Date      |Topic(s)                                                                     |Report due| LR Due Date                                    | LR Graded                                   |
-|--------|-----------|----------|-----------------------------------------------------------------------------|----------|------------------------------------------------|---------------------------------------------|
-|1       |           |Jan 14    |Class Introduction   and Safety Seminar                                      |          |`r fa(name="fas fa-check-circle", fill="green")`|`r fa(name="fas fa-check-circle", fill="green")`|
-|2       |     1     |Jan 21    |Distance Measurement   and Leveling                                          |          |`r fa(name="fas fa-check-circle", fill="green")`|`r fa(name="fas fa-check-circle", fill="green")`|
-|3       |     2     |Jan 28    |Contouring And Total   Station Introduction †                                |1         |`r fa(name="fas fa-check-circle", fill="green")`|`r fa(name="fas fa-check-circle", fill="green")`|
-|4       |     3     |Feb 4     |Traversing      (Open And   Closed) †                                        |2         |`r fa(name="fas fa-check-circle", fill="green")`|`r fa(name="fas fa-check-circle", fill="green")`|
-|5       |     4     |Feb 11    |Surface Area and   Volume Calculation †                                      |3         |`r fa(name="fas fa-check-circle", fill="green")`|`r fa(name="fas fa-check-circle", fill="green")`|
-|6       |     5     |Feb 18    |Horizontal And Vertical   Alignment      (Field) †                           |4         |`r fa(name="fas fa-check-circle", fill="green")`|`r fa(name="fas fa-check-circle", fill="green")`|
-|7       |     6     |Feb 25    |Spot Speed Study        (Determining Roadway   Speeds)                       |5         |             |           |
-|        |     BR|   |SP        |                                                                             |          |             |           |
-|8       |     7     |Mar 4     |Turning Movement   Counts      (Assessing A   Controlled Intersection)       |6         |             |           |
-|9       |     8     |Mar 11    |Horizontal And   Vertical Alignment      (AutoCAD Civil   3D) *              |7         |`r fa(name="fas fa-check-circle", fill="green")`|`r fa(name="fas fa-check-circle", fill="green")`|
-|10      |     9     |Mar 18    |Vehicle Arrival   Study      (Assessing The   Signalized Intersection II)    |8         |             |           |
-|11      |     10    |Mar 25    |Headway Study      (Capacity And the   Unsignalized Intersection)            |9         |             |           |
-|12      |     11    |Apr 1     |Queue Length      (Assessing The   Signalized Intersection I)                |10        |             |           |
-|13      |     12    |Apr 8     |Network And   Route Analysis                                                 |11        |             |           |
-|14      |     13    |Apr 15    |Travel Demand   Modeling (TRANSCAD)*                                         |12        |             |           |
-|15      |           |Apr 22    |Project   Presentation and Report Submission                                 |13        |             |           |
-|        |           |Apr 25    |Last Day of Class                                                            |          |             |           |
+|Week    |Lab Session|Date      |Topic(s)                                |Report due| LR Due Date    | LR Graded  |
+|--------|-----------|----------|--------------------------------------- |----------|----------------|------------|
+|1       |           |Aug 19    |Class Introduction   and Safety Seminar |  X       | X              | X |
+|2       |     1     |Aug 26    |Spot Speed Study                        |  X       | Sep 2          | |
 
 
 ## <font color="993300">Grading Timeline</font>
