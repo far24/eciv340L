@@ -13,10 +13,22 @@ The detailed syllabus is in Blackboard.
 
 ## <font color="993300">Tentative Class Schedule and Updates</font>
 
-|Week    |Lab Session|Date      |Topic(s)                                |Report due| LR Due Date    | LR Graded  |
-|--------|-----------|----------|--------------------------------------- |----------|----------------|------------|
-|1       |           |Aug 19    |Class Introduction   and Safety Seminar |  X       | X              | X |
-|2       |     1     |Aug 26    |Spot Speed Study                        |  X       | Sep 2          | |
+|Week    |Lab Session|Date      |Topic(s)                                | LR Due Date    | LR Grade|
+|--------|-----------|----------|--------------------------------------- |----------------|---------|
+|1       |           |Aug 19    |Class Introduction   and Safety Seminar | X              | Check BB|
+|2       |     1     |Aug 26    |Spot Speed Study                        | Sep 02         | Check BB|
+|3       |     2     |Sep 02    |TMC                                     | Sep 09         | Check BB|
+|4       |     3     |Sep 09    |Dist. Meas. and Leveling                | Sep 16         | Check BB|
+|5       |     4     |Sep 16    |Total Station Intro and Traverse        | Sep 30         | Assigned|
+|6       |     5     |Sep 23    |Contouring                              | Sep 30         | Assigned|
+|7       |     6     |Sep 30    |Hor. and Vertical Alignment             | Oct 07         | Assigned|
+|8       |     7     |Oct 07    |Veh. arr. Study                         | Oct 21         | Assigned|
+|-       |     -     |Oct 13-14 |**Fall Break**                          | X              | |
+|9       |     1     |Oct 21    |Headway Study                           | Oct 28         | Assigned|
+|10      |     1     |Oct 28    |Queue Length Study                      | Nov 04         | Assigned|
+|11      |     1     |Nov 04    |Software: Contouring + Highway Alignment| Dec 2          | Assigned|
+|12      |     1     |Nov 11    |Software: Network and Route Analysis    | Dec 2          | Assigned|
+|13      |     1     |Nov 18    |*Project Presentation*                  | Nov 18         | Assigned|
 
 
 ## <font color="993300">Grading Timeline</font>
